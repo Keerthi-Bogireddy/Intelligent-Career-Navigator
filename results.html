@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Your Career Predictions</h1>
+    <ul>
+    {% for career, confidence in predictions.items() %}
+        <li>{{ career }}: {{ "%.2f"|format(confidence * 100) }}% confidence</li>
+    {% endfor %}
+    </ul>
+    <a href="/" class="btn">Back to Home</a>
+</body>
+</html>

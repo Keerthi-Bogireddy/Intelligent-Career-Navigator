@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Questionnaire</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Tell Us About Yourself</h1>
+    <form action="/results" method="POST">
+        <label>Education Level:</label>
+        <select name="education_level">
+            <option value="Grade 12">Grade 12</option>
+            <option value="Undergraduate">Undergraduate</option>
+        </select><br>
+
+        <label>CGPA (out of 10):</label>
+        <input type="number" name="cgpa" step="0.1" min="0" max="10" required><br>
+
+        <label>Subjects You Enjoy:</label>
+        <input type="text" name="subjects" placeholder="e.g., Math, Physics" required><br>
+
+        <label>Study Hours per Week:</label>
+        <select name="study_hours">
+            <option value="Less than 5">Less than 5</option>
+            <option value="5-10">5-10</option>
+            <option value="10-15">10-15</option>
+        </select><br>
+
+        <label>Interests:</label>
+        <input type="text" name="interests" placeholder="e.g., Technology, Arts" required><br>
+
+        <label>Skills:</label>
+        <input type="text" name="skills" placeholder="e.g., Coding, Teamwork" required><br>
+
+        <label>I enjoy meeting new people (1-5):</label>
+        <input type="number" name="socializing" min="1" max="5" required><br>
+
+        <button type="submit" class="btn">Submit</button>
+    </form>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
