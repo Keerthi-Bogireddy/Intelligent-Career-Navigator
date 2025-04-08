@@ -6,8 +6,8 @@ from sklearn.preprocessing import MultiLabelBinarizer
 app = Flask(__name__)
 
 # Load trained models
-rf_model = joblib.load("models/rf_model.pkl")
-rules = joblib.load("models/rules.pkl")
+rf_model = joblib.load("best_model.pkl")
+
 
 # Preprocessing function for user input
 def preprocess_input(data):
