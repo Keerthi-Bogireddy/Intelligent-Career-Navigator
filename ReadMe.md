@@ -3,8 +3,7 @@
 A mini-project to predict career options using user survey data and ML.
 ### To Create A virtual environment
     1. cmd in this folder
-    2. Type the following :->  python -m venv venv
-    3. To activate the environment type the following :-> venv\Scripts\activate
+    2. To activate the environment type the following :-> venv\Scripts\activate
 ## Setup
 1. Install dependencies:
    
