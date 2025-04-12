@@ -39,10 +39,3 @@ Open http://127.0.0.1:5000 in your browser.
 4. **Test**:
    - Navigate from Home → Questionnaire → Results.
    - Input sample data (e.g., Subjects: "Math, Physics", Skills: "Coding, Problem-solving").
-
----
-
-## Notes
-- **Simplifications**: The questionnaire is trimmed for brevity (add more fields from your survey as needed). The preprocessing assumes comma-separated inputs for multi-select fields.
-- **Expansion**: Add more career pathways from your list, enhance the UI, or integrate live updates using APIs (e.g., Indeed for job trends).
-- **Data**: Ensure your `survey_data.csv` matches the expected columns (adjust `preprocess.py` if needed).
