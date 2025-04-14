@@ -57,12 +57,12 @@ def preprocess_data(file_path, output_path="processed_dataset.csv"):
     print(f"Processed data saved to '{output_path}'")
     print("Processed shape:", df.shape)
 
-    return X, y, le.classes_
+    return X, y, le.classes_, scaler
 
 if __name__ == "__main__":
     file_path = r"C:\Users\Akshitha Kotte\Desktop\mini-project-new\Intelligent-Career-Navigator\data\icn_dataset.csv"
     try:
-        X, y, career_classes = preprocess_data(file_path)
+        X, y, career_classes, scaler = preprocess_data(file_path)
         print("\nSample X (first 5 rows):")
         print(X.head())
         print("\nSample y (first 5 rows):")

@@ -1,0 +1,1001 @@
+id,age,education_level,cgpa,math_score,physics_score,biology_score,history_score,openness,conscientiousness,extraversion,agreeableness,neuroticism,weekly_self_study_hours,hobbies,interests,budget,career_demand_score,career_aspiration
+1,21,UG,5.7,60,72,62,75,1,5,1,1,3,15,"sports, finance",technology,14,3,Engineering
+2,15,Grade 10,8.5,80,85,93,54,3,4,3,2,3,12,dance,arts,4,6,Arts
+3,28,PG,8.7,76,82,84,77,2,3,1,3,1,24,history,business,7,8,Software Engineer
+4,20,UG,7.1,73,73,54,77,4,3,4,2,4,18,"painting, history",healthcare,6,7,Software Engineer
+5,21,UG,6.7,77,61,76,58,2,5,2,3,2,21,"writing, travel",healthcare,12,9,CA
+6,16,Grade 12,5.0,69,60,94,65,3,5,3,3,3,12,"coding, travel",healthcare,3,10,Lawyer
+7,23,UG,8.4,60,67,55,67,2,1,2,3,3,20,"music, reading, debate",healthcare,12,5,Data Scientist
+8,25,PG,8.1,74,87,72,81,4,3,2,1,1,16,music,arts,10,5,CA
+9,13,Grade 10,6.9,90,70,70,65,2,2,3,3,3,17,"music, history",arts,5,5,Finance Manager
+10,13,Grade 10,6.8,90,61,56,72,2,3,2,3,4,18,travel,arts,10,10,MBA
+11,16,Grade 12,7.6,55,63,66,86,3,4,2,1,3,16,"music, writing",healthcare,8,4,IT Specialist
+12,15,Grade 10,5.9,65,68,76,57,4,1,4,3,2,20,"sports, gaming, debate",business,10,6,IT Specialist
+13,16,Grade 12,6.5,64,85,73,81,4,2,2,2,2,18,writing,arts,11,3,IT Specialist
+14,24,UG,8.1,68,80,88,66,2,4,3,3,1,20,painting,business,4,6,Software Engineer
+15,22,UG,5.0,61,71,83,60,1,3,3,3,2,33,science,business,7,9,Finance Manager
+16,13,Grade 10,7.0,68,68,58,78,3,2,3,4,5,21,"history, painting",business,15,10,Software Engineer
+17,15,Grade 10,7.2,82,90,65,75,2,1,1,3,1,29,"dance, gaming, sports",arts,9,7,Engineering
+18,17,Grade 12,8.1,80,71,80,61,4,2,4,4,1,21,"dance, debate, reading",arts,10,10,Engineering
+19,21,UG,7.7,71,88,81,79,3,4,3,1,3,18,music,technology,6,7,Lawyer
+20,21,UG,6.6,89,75,71,51,2,3,2,4,3,23,"travel, research",healthcare,7,4,Engineering
+21,20,UG,6.2,76,74,68,61,2,4,3,2,4,25,"science, travel, gaming",arts,8,8,IT Specialist
+22,21,UG,6.2,72,71,77,65,3,3,3,3,3,19,"coding, writing",arts,11,3,Lawyer
+23,18,UG,7.1,67,72,68,78,2,1,2,2,2,12,"science, gaming",business,9,8,MBA
+24,15,Grade 10,8.2,55,89,86,70,3,3,1,2,4,17,reading,business,10,7,Lawyer
+25,25,UG,6.7,73,81,51,69,2,2,1,3,2,27,"writing, science, dance",technology,12,10,Historian
+26,16,Grade 12,6.2,75,73,85,80,1,2,1,3,2,13,history,healthcare,11,3,Arts
+27,16,Grade 12,9.0,58,75,69,59,3,3,4,3,2,26,reading,healthcare,15,6,Historian
+28,23,UG,7.6,84,72,80,58,4,3,2,1,3,22,"history, gaming, travel",business,12,6,MBA
+29,19,UG,5.2,80,75,66,90,4,2,3,4,3,21,sports,arts,13,8,Data Scientist
+30,23,UG,8.3,68,76,67,77,2,3,2,2,5,13,"writing, debate",business,4,6,Software Engineer
+31,18,UG,6.5,79,78,75,50,3,2,1,4,3,21,"science, debate, reading",healthcare,9,9,IT Specialist
+32,22,UG,8.7,81,61,94,69,3,2,3,2,3,23,"gaming, writing, history",business,10,7,Data Scientist
+33,13,Grade 10,8.8,100,68,87,85,2,2,2,5,1,16,"gaming, writing",technology,13,6,Finance Manager
+34,19,UG,9.0,79,65,95,78,1,3,4,2,2,10,writing,technology,16,4,Arts
+35,27,UG,5.7,80,81,69,57,1,4,1,3,5,28,"writing, sports, painting",technology,10,4,Data Scientist
+36,20,UG,5.4,71,82,63,81,4,3,1,3,3,11,"writing, music",arts,7,5,Finance Manager
+37,16,Grade 12,6.2,53,86,78,82,2,2,2,2,2,29,research,technology,10,6,Engineering
+38,28,PG,6.7,76,70,59,96,3,2,2,2,1,14,travel,technology,9,5,Engineering
+39,20,UG,7.6,61,64,77,73,3,2,3,2,3,17,"research, science, finance",technology,11,9,Medicine
+40,15,Grade 10,6.6,71,81,69,79,4,2,2,3,3,21,"coding, music",healthcare,8,7,IT Specialist
+41,16,Grade 12,9.4,80,87,64,65,1,3,3,4,2,32,"painting, research, travel",technology,8,4,MBA
+42,17,Grade 12,7.9,71,66,69,69,2,3,2,1,2,21,"science, reading, debate",business,10,6,CA
+43,17,Grade 12,7.7,73,67,70,81,4,2,3,2,3,30,"science, music",healthcare,10,6,Software Engineer
+44,18,UG,7.1,64,91,74,62,2,3,4,3,2,24,"writing, coding",business,8,5,Software Engineer
+45,19,UG,9.1,77,63,63,58,2,2,5,2,1,5,sports,healthcare,10,9,Engineering
+46,21,UG,10.0,65,62,51,50,3,1,3,3,3,27,reading,arts,14,7,Defence Persenal
+47,25,UG,9.3,82,66,55,77,5,3,3,5,4,23,writing,technology,6,7,Software Engineer
+48,22,UG,7.2,68,84,73,74,2,3,2,2,4,15,"history, writing",business,6,7,Software Engineer
+49,16,Grade 12,10.0,64,60,79,91,2,2,1,3,3,18,"debate, finance",healthcare,6,6,Lawyer
+50,21,UG,7.3,67,75,64,54,2,4,5,3,2,13,"debate, history",technology,11,9,CA
+51,25,UG,8.1,50,71,75,55,2,2,3,2,4,24,"music, debate",healthcare,8,7,MBA
+52,17,Grade 12,6.6,82,73,70,76,2,3,1,3,1,16,"history, dance, sports",business,13,5,CA
+53,23,UG,6.3,69,78,75,71,2,4,2,3,3,20,"science, reading, finance",business,8,6,Medicine
+54,23,UG,6.7,87,72,71,56,2,2,3,3,2,14,finance,business,8,7,Historian
+55,25,UG,8.0,88,70,63,69,4,3,2,4,2,15,"debate, music",healthcare,12,5,Lawyer
+56,17,Grade 12,6.7,84,79,67,69,3,1,3,3,2,18,gaming,business,6,9,Data Scientist
+57,22,UG,6.0,74,74,63,66,3,2,3,3,1,13,travel,healthcare,9,6,Data Scientist
+58,16,Grade 12,6.5,83,85,69,77,2,4,3,3,3,21,"history, dance, gaming",arts,8,8,Medicine
+59,14,Grade 10,7.4,75,72,75,59,2,3,3,3,1,23,"painting, coding, music",arts,13,9,Arts
+60,16,Grade 12,8.6,69,78,58,72,3,3,4,5,3,15,"sports, gaming, travel",healthcare,8,8,Data Scientist
+61,16,Grade 12,7.3,78,85,70,81,3,3,2,2,2,16,"sports, finance",healthcare,13,7,Lawyer
+62,18,UG,6.1,76,84,66,73,3,2,2,3,1,26,"sports, finance",arts,10,4,CA
+63,21,UG,8.2,66,68,50,79,1,2,1,3,1,21,"finance, history, writing",technology,13,10,Finance Manager
+64,27,UG,7.5,78,72,82,59,3,1,2,3,3,12,"painting, travel, writing",healthcare,6,4,Defence Persenal
+65,17,Grade 12,8.8,54,82,50,69,3,3,4,2,4,27,"dance, research",healthcare,10,7,Software Engineer
+66,19,UG,6.8,91,80,94,84,3,1,3,3,3,18,finance,technology,8,5,Arts
+67,18,UG,6.3,80,82,64,62,2,3,3,3,2,22,research,healthcare,6,8,Engineering
+68,17,Grade 12,10.0,91,62,75,66,4,1,1,1,2,27,travel,technology,10,7,MBA
+69,15,Grade 10,6.0,75,76,70,65,3,3,1,2,3,19,"travel, coding",business,11,9,Engineering
+70,13,Grade 10,5.7,67,81,72,68,3,4,4,3,1,24,"history, debate, dance",business,16,10,MBA
+71,26,UG,8.4,78,74,67,71,1,2,3,2,2,20,"dance, music, finance",healthcare,13,8,Arts
+72,17,Grade 12,6.3,92,76,63,77,4,3,1,3,4,11,debate,arts,10,8,IT Specialist
+73,14,Grade 10,6.1,50,88,67,75,2,2,2,3,3,21,"debate, painting, gaming",business,8,10,Data Scientist
+74,18,UG,9.4,74,72,92,55,2,2,2,2,2,20,finance,healthcare,8,3,CA
+75,16,Grade 12,8.9,57,50,78,67,2,4,5,2,3,14,gaming,arts,16,10,Engineering
+76,23,PG,7.1,85,81,70,70,3,2,2,3,1,22,"debate, dance",technology,12,5,Engineering
+77,16,Grade 12,8.5,79,83,50,80,3,3,3,1,3,31,"finance, painting, sports",arts,8,4,Data Scientist
+78,23,UG,7.9,86,85,58,85,4,2,2,1,4,23,"gaming, sports, research",arts,11,3,Defence Persenal
+79,18,UG,8.4,72,89,70,62,1,1,2,3,4,20,"gaming, research, music",healthcare,15,8,Software Engineer
+80,13,Grade 10,5.4,64,75,69,61,2,2,2,3,4,16,"music, writing",business,6,6,Software Engineer
+81,18,UG,6.7,78,77,81,67,3,2,2,2,2,18,"research, dance, history",arts,9,7,CA
+82,19,UG,9.4,79,89,50,84,2,4,3,1,1,18,"coding, music",business,11,10,IT Specialist
+83,20,UG,5.9,100,87,72,78,4,3,2,3,1,17,"painting, reading, gaming",healthcare,6,4,Data Scientist
+84,17,Grade 12,6.7,76,65,59,75,3,3,2,2,4,18,"music, dance",arts,12,5,Engineering
+85,21,UG,7.9,84,80,77,82,3,2,2,2,2,22,painting,business,14,3,Finance Manager
+86,16,Grade 12,7.8,67,86,62,60,3,2,3,1,3,7,"science, coding",healthcare,8,9,Engineering
+87,20,UG,8.6,72,62,78,76,3,1,3,3,3,21,"sports, debate, reading",healthcare,11,4,Defence Persenal
+88,17,Grade 12,7.1,68,82,83,61,3,3,3,2,3,20,science,healthcare,13,3,Historian
+89,24,UG,7.8,66,61,73,74,2,3,2,4,3,14,science,technology,7,8,IT Specialist
+90,23,UG,10.0,75,92,64,84,3,1,3,2,4,27,gaming,technology,12,9,Historian
+91,23,PG,7.9,75,78,96,93,4,3,1,4,1,19,sports,healthcare,9,10,Lawyer
+92,28,PG,7.2,89,92,74,50,3,4,2,2,2,25,sports,technology,8,5,Lawyer
+93,20,UG,6.6,80,53,75,86,1,1,2,1,2,22,writing,healthcare,11,7,Engineering
+94,23,PG,10.0,79,70,73,74,1,3,2,5,3,24,"debate, music",technology,13,5,Finance Manager
+95,21,UG,6.5,67,86,56,68,3,2,2,3,1,14,"writing, sports, music",technology,13,8,Software Engineer
+96,23,UG,6.4,85,67,50,84,3,4,2,3,3,25,"painting, reading, coding",business,11,5,Defence Persenal
+97,13,Grade 10,9.3,73,78,81,73,1,2,1,2,2,24,"finance, science",business,13,9,Finance Manager
+98,15,Grade 10,8.5,73,88,64,69,2,2,3,2,2,9,sports,arts,7,7,Data Scientist
+99,30,PG,7.8,67,87,62,63,2,2,2,1,2,21,"finance, painting",healthcare,11,9,MBA
+100,22,UG,5.6,85,75,68,50,3,2,2,4,2,24,reading,business,15,4,Lawyer
+101,15,Grade 10,8.3,74,81,50,61,3,2,3,4,3,19,"coding, painting",business,11,3,Historian
+102,15,Grade 10,7.7,60,73,87,69,2,3,3,4,2,23,gaming,business,10,5,Lawyer
+103,21,UG,8.7,77,99,72,50,3,3,3,4,2,29,"finance, writing",arts,3,8,IT Specialist
+104,21,UG,7.9,95,69,73,91,2,4,2,2,3,21,"reading, dance, coding",healthcare,15,6,Historian
+105,14,Grade 10,8.6,66,79,76,80,3,2,3,1,3,17,"gaming, sports",arts,10,6,Medicine
+106,13,Grade 10,8.9,87,81,63,62,1,1,2,3,5,10,"coding, travel",technology,8,7,Finance Manager
+107,16,Grade 12,5.0,85,75,61,74,4,1,2,2,2,22,writing,technology,12,5,Arts
+108,20,UG,8.3,74,82,65,59,1,3,2,1,1,24,"finance, painting",healthcare,8,7,Defence Persenal
+109,21,UG,6.9,71,84,54,90,3,2,1,3,3,32,"history, finance, coding",healthcare,12,7,IT Specialist
+110,17,Grade 12,9.5,77,69,50,69,2,3,2,3,1,23,"coding, dance, history",technology,8,9,Engineering
+111,24,PG,6.5,77,69,60,58,3,2,2,2,2,20,coding,business,11,6,Data Scientist
+112,20,UG,6.6,76,90,61,60,2,3,1,3,3,14,"reading, coding, gaming",technology,9,8,Historian
+113,18,UG,7.5,73,73,77,58,2,2,3,1,2,22,"coding, gaming, debate",arts,5,4,CA
+114,22,UG,5.0,76,68,63,71,3,1,1,3,5,29,reading,arts,11,7,Software Engineer
+115,13,Grade 10,7.1,51,76,78,50,4,2,4,3,3,13,"debate, sports, writing",technology,6,5,MBA
+116,14,Grade 10,7.0,78,87,55,77,2,5,3,3,2,21,"gaming, science, debate",healthcare,11,8,Historian
+117,15,Grade 10,5.0,83,71,61,70,3,5,3,3,2,12,"gaming, debate",arts,11,7,Historian
+118,22,UG,8.9,79,71,58,65,3,1,2,4,3,24,gaming,arts,8,4,Medicine
+119,21,UG,8.5,81,84,73,76,4,5,2,2,1,14,"travel, painting",healthcare,4,6,Software Engineer
+120,23,UG,6.6,69,72,54,61,1,1,2,2,1,23,"finance, coding, gaming",arts,6,10,Data Scientist
+121,18,UG,7.1,69,65,53,50,3,3,4,5,2,28,"painting, debate, travel",healthcare,13,8,Historian
+122,21,UG,8.3,82,94,79,71,3,4,4,3,1,20,"reading, travel",healthcare,7,9,Data Scientist
+123,19,UG,8.1,90,59,76,74,3,2,2,3,4,22,"writing, music",technology,12,6,CA
+124,18,UG,8.0,74,70,78,72,2,2,2,2,3,18,"sports, dance",business,10,3,Data Scientist
+125,19,UG,7.0,56,73,69,69,1,3,2,2,3,20,"music, debate, painting",arts,10,9,Defence Persenal
+126,17,Grade 12,8.5,68,85,77,76,3,1,2,2,3,14,history,technology,11,8,IT Specialist
+127,23,UG,7.3,85,86,72,78,2,4,2,3,2,22,"dance, music, history",arts,8,6,MBA
+128,23,UG,6.1,56,82,62,57,2,2,2,3,4,12,"music, science, dance",healthcare,8,9,Lawyer
+129,16,Grade 12,10.0,76,71,62,94,2,1,3,3,3,26,"debate, finance, writing",arts,11,9,MBA
+130,26,UG,8.7,68,59,58,62,1,2,2,3,3,15,travel,arts,13,6,Lawyer
+131,17,Grade 12,7.5,61,72,86,74,2,2,3,3,2,20,music,arts,11,10,Defence Persenal
+132,21,UG,8.1,77,84,73,74,4,3,2,3,3,25,"science, debate",business,17,7,IT Specialist
+133,17,Grade 12,9.2,66,82,72,66,4,3,3,3,2,16,"travel, dance",business,11,4,MBA
+134,16,Grade 12,7.7,85,86,61,99,4,3,2,2,3,22,"coding, reading",business,13,4,Defence Persenal
+135,18,UG,6.5,75,93,83,64,2,1,2,2,2,5,science,healthcare,9,9,MBA
+136,13,Grade 10,7.1,75,64,87,72,4,2,2,4,3,15,"debate, coding",technology,12,7,Software Engineer
+137,13,Grade 10,8.2,78,84,64,71,2,2,3,4,3,17,sports,healthcare,13,9,Lawyer
+138,15,Grade 10,8.2,85,82,78,61,5,2,2,4,2,7,"history, debate, dance",healthcare,11,8,Defence Persenal
+139,25,PG,6.9,73,78,78,78,4,4,3,3,1,24,"history, music, writing",healthcare,9,3,Historian
+140,14,Grade 10,6.8,69,82,67,66,4,2,2,3,4,25,"research, reading",arts,13,5,IT Specialist
+141,19,UG,5.0,77,78,50,50,1,3,1,3,3,6,"finance, dance",technology,12,10,Lawyer
+142,13,Grade 10,8.1,89,54,79,50,4,4,3,4,3,24,"debate, research, painting",arts,4,9,Data Scientist
+143,19,UG,8.1,77,69,68,66,2,2,4,3,1,20,writing,arts,11,8,Data Scientist
+144,28,PG,7.1,75,76,64,60,4,1,2,3,2,23,"painting, coding",business,11,7,IT Specialist
+145,24,PG,8.4,76,79,83,67,2,2,3,2,2,19,"gaming, finance",technology,8,6,MBA
+146,18,UG,8.6,74,79,70,68,1,2,3,5,3,17,"coding, debate, science",business,10,10,Data Scientist
+147,13,Grade 10,6.2,92,72,61,78,3,3,4,5,2,19,science,business,9,7,Software Engineer
+148,19,UG,7.7,63,75,82,61,1,4,4,4,4,14,"science, finance",business,6,6,Defence Persenal
+149,15,Grade 10,9.1,66,50,88,56,3,1,3,1,3,10,"reading, travel",technology,9,7,Software Engineer
+150,16,Grade 12,6.7,77,74,84,53,2,2,2,3,4,17,"coding, writing, finance",healthcare,4,3,Engineering
+151,24,PG,6.8,60,87,65,68,2,3,1,2,3,20,"finance, debate",business,10,6,Defence Persenal
+152,30,PG,8.9,68,72,60,58,4,2,4,2,2,19,finance,healthcare,14,3,Lawyer
+153,21,UG,9.6,73,73,65,50,2,2,2,1,2,10,writing,arts,10,8,CA
+154,13,Grade 10,5.9,97,59,84,73,3,4,3,3,3,17,"sports, music, reading",arts,6,9,Arts
+155,16,Grade 12,6.0,66,65,50,76,2,2,2,4,2,15,"reading, gaming, painting",technology,10,5,Software Engineer
+156,20,UG,6.5,77,61,65,83,4,3,2,4,4,18,"painting, debate",arts,9,3,Software Engineer
+157,23,UG,6.4,69,67,79,61,4,3,1,3,3,20,research,business,10,8,Data Scientist
+158,13,Grade 10,7.3,71,76,54,72,1,3,2,2,3,20,"music, science, coding",arts,8,5,Defence Persenal
+159,17,Grade 12,7.8,78,72,70,68,1,1,1,4,1,17,"finance, reading, sports",business,13,7,Data Scientist
+160,16,Grade 12,8.5,63,67,74,82,2,4,4,3,2,29,"travel, history, painting",arts,10,6,Data Scientist
+161,21,UG,7.6,83,55,69,86,3,2,1,4,2,18,"sports, coding, debate",business,8,8,MBA
+162,22,UG,6.0,70,74,62,69,3,3,3,2,2,25,"sports, reading",healthcare,4,6,IT Specialist
+163,21,UG,6.4,65,80,53,66,3,2,3,3,1,22,gaming,healthcare,7,7,Medicine
+164,21,UG,6.7,75,74,62,65,3,3,3,2,2,22,"finance, research, debate",business,7,3,Defence Persenal
+165,23,UG,8.1,78,72,83,59,2,2,5,2,1,15,"science, sports, finance",technology,10,7,Historian
+166,22,UG,7.2,60,82,79,66,2,3,3,2,2,33,"dance, gaming",arts,14,7,Arts
+167,17,Grade 12,7.0,72,93,78,68,3,2,4,1,3,29,"gaming, writing, research",healthcare,10,9,Historian
+168,22,UG,7.1,56,66,74,76,3,3,3,2,3,20,"history, writing",business,12,6,Data Scientist
+169,14,Grade 10,6.4,81,90,78,62,2,2,2,5,3,16,music,business,9,7,Finance Manager
+170,16,Grade 12,8.4,50,66,56,52,3,3,4,3,1,22,painting,business,8,8,IT Specialist
+171,16,Grade 12,5.7,85,66,74,63,4,2,2,1,2,14,"research, science, gaming",business,13,7,Finance Manager
+172,13,Grade 10,6.4,83,79,83,65,2,2,3,2,1,11,"research, sports",healthcare,10,10,Data Scientist
+173,17,Grade 12,6.4,70,98,82,71,1,2,4,3,2,17,"travel, science",business,7,7,Finance Manager
+174,16,Grade 12,7.7,69,83,50,57,4,1,2,2,2,7,debate,arts,11,8,Arts
+175,21,UG,5.8,76,78,77,54,3,3,3,2,2,18,science,healthcare,6,4,CA
+176,24,UG,7.6,65,59,56,68,3,2,1,3,2,26,"reading, writing, painting",healthcare,11,6,Software Engineer
+177,29,PG,7.9,76,68,82,81,3,2,1,2,2,14,music,arts,13,6,CA
+178,21,UG,6.4,75,76,66,55,4,4,1,3,2,21,"writing, sports, finance",arts,10,9,Finance Manager
+179,19,UG,7.5,77,56,87,75,2,3,3,5,2,20,"debate, finance, dance",business,14,6,Software Engineer
+180,22,UG,5.9,77,65,78,84,3,4,2,3,4,26,debate,business,7,4,Lawyer
+181,13,Grade 10,7.9,69,66,61,64,2,3,4,2,2,19,music,arts,10,8,Engineering
+182,13,Grade 10,7.3,71,73,62,68,2,2,4,2,3,21,music,technology,10,3,Historian
+183,26,UG,7.9,95,83,88,70,2,4,1,2,3,27,coding,healthcare,7,8,Defence Persenal
+184,20,UG,9.2,80,79,94,84,2,2,4,3,2,23,"music, reading",technology,6,7,MBA
+185,21,UG,9.1,71,53,79,72,2,3,3,1,3,15,"finance, gaming, science",technology,8,5,Lawyer
+186,17,Grade 12,6.4,78,62,57,80,4,3,4,3,3,17,"debate, history, dance",technology,11,5,Defence Persenal
+187,23,PG,5.6,78,75,78,50,2,3,2,5,1,26,"debate, research, history",healthcare,11,7,Defence Persenal
+188,19,UG,5.4,78,80,71,51,3,1,1,2,2,18,debate,arts,7,10,Software Engineer
+189,19,UG,7.6,67,74,74,92,2,3,3,2,2,12,gaming,business,11,5,CA
+190,20,UG,6.4,87,71,81,67,2,3,3,2,2,7,history,business,13,6,Software Engineer
+191,20,UG,7.8,65,77,70,81,3,1,3,2,2,23,writing,technology,8,6,Historian
+192,26,UG,8.9,81,70,69,69,2,2,3,2,2,12,"debate, dance, science",arts,8,9,Data Scientist
+193,15,Grade 10,6.2,70,82,82,62,2,3,1,2,2,17,research,business,11,7,Software Engineer
+194,19,UG,7.5,86,69,60,78,2,2,2,1,3,22,debate,arts,10,7,Lawyer
+195,13,Grade 10,8.5,72,67,67,82,2,3,2,1,3,11,"writing, coding, research",technology,6,8,Defence Persenal
+196,20,UG,6.7,67,79,88,51,2,3,4,1,2,21,writing,technology,13,6,Data Scientist
+197,21,UG,6.9,87,64,79,94,2,3,2,1,2,24,"sports, painting, debate",technology,10,9,Data Scientist
+198,21,UG,7.2,85,76,64,71,4,2,2,3,2,21,"research, dance, debate",business,15,6,Data Scientist
+199,20,UG,8.5,78,79,75,81,3,2,2,3,1,16,dance,arts,10,10,Data Scientist
+200,25,PG,7.6,65,76,90,94,3,4,3,2,1,19,"history, science",arts,8,10,Data Scientist
+201,13,Grade 10,6.8,73,71,54,50,4,2,3,4,3,26,"painting, research, history",arts,8,7,Arts
+202,13,Grade 10,6.7,90,78,82,73,1,2,3,3,2,29,science,healthcare,10,9,Arts
+203,20,UG,7.6,82,74,50,56,1,4,1,2,2,16,"coding, painting",technology,15,6,Historian
+204,13,Grade 10,9.3,88,74,71,83,2,5,3,3,2,18,"research, reading, science",arts,9,4,Engineering
+205,21,UG,6.8,66,67,60,69,3,2,3,2,1,29,"coding, reading, debate",healthcare,15,5,Historian
+206,23,UG,8.8,63,75,66,56,2,2,3,1,3,21,painting,healthcare,8,9,Arts
+207,19,UG,7.8,76,59,76,56,4,2,4,2,2,25,"reading, painting, sports",technology,13,5,Software Engineer
+208,22,UG,5.9,79,71,57,80,1,2,3,3,3,18,"debate, sports",technology,8,6,CA
+209,21,UG,7.9,72,80,50,59,3,4,1,2,3,11,"science, gaming",business,12,9,Arts
+210,18,UG,6.6,71,70,72,65,5,4,1,3,4,19,dance,technology,11,7,Engineering
+211,20,UG,6.4,71,81,82,74,2,2,3,3,3,15,"reading, coding",healthcare,10,4,Lawyer
+212,22,UG,7.4,100,80,69,64,2,2,1,1,3,23,"coding, painting, writing",arts,9,3,Data Scientist
+213,20,UG,7.8,73,76,65,88,2,3,2,3,2,14,writing,technology,13,5,Historian
+214,14,Grade 10,5.1,75,75,73,68,1,2,3,3,3,20,dance,technology,8,6,Data Scientist
+215,17,Grade 12,8.9,83,72,71,67,2,1,3,2,4,15,science,arts,7,4,Data Scientist
+216,20,UG,9.0,68,79,65,71,4,3,1,1,1,24,"reading, gaming, painting",healthcare,8,8,Lawyer
+217,14,Grade 10,6.1,83,83,59,50,2,4,3,4,1,17,"gaming, reading",business,6,8,IT Specialist
+218,20,UG,7.5,79,74,68,87,2,2,1,4,2,30,"sports, painting",business,10,10,Lawyer
+219,14,Grade 10,7.3,90,59,70,65,1,3,3,4,1,20,"writing, history, dance",business,8,7,Lawyer
+220,21,UG,7.9,70,69,69,56,4,4,3,3,3,25,"gaming, music, dance",technology,7,7,Arts
+221,20,UG,8.3,66,78,63,80,3,4,2,2,3,21,"dance, science, debate",business,13,3,MBA
+222,16,Grade 12,8.1,65,84,52,95,1,4,3,3,3,15,"reading, coding",business,7,6,MBA
+223,23,UG,8.0,83,75,71,79,2,3,1,3,2,29,"coding, music",technology,6,8,IT Specialist
+224,23,UG,5.8,85,78,65,67,3,2,3,4,2,25,"research, coding, dance",healthcare,15,6,Medicine
+225,22,UG,8.8,76,72,82,52,3,2,1,3,2,22,"finance, science, painting",arts,11,8,Lawyer
+226,27,UG,8.2,66,70,50,71,4,3,2,1,2,13,"music, gaming, research",healthcare,10,7,Lawyer
+227,27,UG,7.2,70,94,82,50,2,3,5,2,2,13,"finance, writing",healthcare,15,10,IT Specialist
+228,19,UG,6.8,86,68,75,76,3,4,2,4,4,20,"finance, music, travel",business,13,7,Engineering
+229,13,Grade 10,8.0,70,58,88,76,3,3,2,3,3,20,coding,technology,10,4,Software Engineer
+230,19,UG,8.2,71,54,69,58,1,4,2,4,4,21,"sports, coding",healthcare,9,7,Defence Persenal
+231,24,UG,7.4,80,68,73,77,2,2,1,2,4,16,"writing, dance, coding",business,5,3,Historian
+232,23,UG,6.0,72,66,70,86,4,4,3,3,3,19,writing,arts,13,6,CA
+233,20,UG,7.9,70,90,63,59,2,2,3,3,3,13,"history, music",healthcare,11,4,Defence Persenal
+234,19,UG,7.2,72,57,77,67,3,2,2,1,1,22,finance,healthcare,8,6,Finance Manager
+235,18,UG,6.9,89,63,90,79,3,2,2,1,4,15,music,business,14,4,Lawyer
+236,24,PG,7.7,78,87,86,96,3,2,2,1,2,25,"science, history",technology,9,8,IT Specialist
+237,26,PG,6.2,68,92,66,77,2,3,5,3,2,15,"writing, gaming, coding",technology,10,10,Lawyer
+238,25,UG,7.2,83,70,79,62,2,2,4,3,2,18,debate,business,6,7,CA
+239,23,UG,8.7,83,78,73,85,3,3,1,2,2,24,coding,technology,8,8,MBA
+240,19,UG,7.5,73,67,82,60,4,1,3,1,2,26,"finance, science, writing",arts,11,7,Historian
+241,14,Grade 10,5.5,61,81,57,55,2,2,4,5,2,30,"music, reading, debate",business,11,6,Finance Manager
+242,23,UG,8.3,88,71,70,81,3,2,1,2,2,27,"painting, reading, sports",technology,5,5,Engineering
+243,20,UG,8.8,59,95,80,67,4,1,2,4,3,16,"travel, dance",business,12,9,Engineering
+244,21,UG,8.7,65,65,75,70,1,4,2,3,3,21,"coding, sports",healthcare,11,3,Historian
+245,27,PG,7.0,79,76,66,58,2,1,5,3,5,23,"science, painting, reading",technology,12,5,Software Engineer
+246,19,UG,9.1,86,71,73,74,5,4,2,1,3,15,"research, writing",technology,12,8,Arts
+247,14,Grade 10,7.5,71,76,90,54,3,3,3,3,2,27,debate,healthcare,11,7,Engineering
+248,25,PG,8.0,67,68,55,79,4,3,1,3,2,20,"science, travel, coding",healthcare,9,8,Software Engineer
+249,19,UG,9.3,80,100,63,82,1,5,3,3,3,26,research,arts,8,5,Arts
+250,21,UG,7.8,79,53,64,67,5,3,3,2,4,15,"research, finance, writing",technology,6,4,Defence Persenal
+251,20,UG,5.3,50,82,65,70,4,2,5,4,3,24,"dance, painting, travel",technology,7,8,Medicine
+252,21,UG,8.0,50,83,93,56,2,2,2,1,3,15,painting,arts,7,10,Data Scientist
+253,22,UG,9.1,85,63,57,67,2,3,4,3,2,24,"reading, travel",business,12,8,Finance Manager
+254,22,UG,8.8,94,73,63,69,2,3,4,2,3,17,science,business,9,8,CA
+255,22,UG,5.9,77,62,82,85,2,2,2,4,3,28,"dance, sports, reading",technology,7,6,Medicine
+256,18,UG,6.2,67,72,75,56,3,2,3,3,4,24,science,business,9,9,Historian
+257,22,UG,6.4,62,84,68,79,3,4,3,2,2,7,"research, music, debate",arts,10,6,Finance Manager
+258,23,UG,7.4,70,76,70,55,2,2,3,2,1,12,gaming,technology,13,7,Historian
+259,13,Grade 10,9.1,74,74,72,66,3,3,1,2,1,15,"research, music, writing",business,6,5,Data Scientist
+260,24,UG,6.2,75,80,59,50,1,3,2,4,1,18,"finance, dance",business,7,10,Defence Persenal
+261,21,UG,6.4,67,81,76,85,1,4,3,3,2,19,dance,healthcare,10,10,Arts
+262,13,Grade 10,7.4,75,67,83,66,3,1,1,2,2,14,reading,arts,15,5,Defence Persenal
+263,18,UG,7.5,62,82,67,61,4,1,3,3,4,26,"coding, finance",arts,11,6,Data Scientist
+264,14,Grade 10,7.7,74,78,50,77,2,3,4,3,4,27,"finance, debate, music",business,7,4,MBA
+265,18,UG,7.2,96,65,68,50,2,2,2,2,3,9,"sports, reading, writing",healthcare,12,9,IT Specialist
+266,23,PG,5.9,66,66,58,78,3,1,3,1,3,22,"dance, coding, history",technology,9,6,Medicine
+267,18,UG,7.4,67,74,57,69,2,2,3,1,3,12,"history, travel, sports",business,15,7,MBA
+268,19,UG,7.6,72,62,83,59,2,2,1,4,1,23,"dance, sports, writing",technology,11,8,Defence Persenal
+269,15,Grade 10,6.7,71,77,58,85,2,3,3,4,2,27,"writing, sports",technology,9,3,Lawyer
+270,15,Grade 10,10.0,64,75,69,71,1,3,2,1,3,18,"debate, dance, reading",business,16,7,Software Engineer
+271,17,Grade 12,8.3,76,69,75,54,2,3,2,3,2,25,finance,arts,9,7,Software Engineer
+272,20,UG,6.9,77,74,82,55,1,3,2,2,3,19,reading,arts,13,8,Lawyer
+273,15,Grade 10,6.7,82,77,56,83,3,3,4,2,4,19,"science, travel, gaming",business,7,9,Data Scientist
+274,30,UG,8.0,64,65,95,86,4,4,2,2,3,11,"painting, writing, history",business,11,5,Finance Manager
+275,13,Grade 10,6.8,68,54,73,90,2,4,4,2,2,21,gaming,technology,10,6,Historian
+276,15,Grade 10,7.5,73,80,58,50,4,3,2,1,1,24,"history, music, painting",arts,9,6,Finance Manager
+277,21,UG,9.2,67,73,61,85,3,3,2,1,3,15,"sports, gaming, dance",technology,10,8,Software Engineer
+278,22,UG,9.5,73,76,82,74,3,4,2,2,1,18,finance,business,11,3,IT Specialist
+279,15,Grade 10,6.9,76,87,71,50,4,2,1,2,2,22,"painting, gaming",healthcare,10,8,Data Scientist
+280,22,UG,10.0,98,66,66,78,3,2,1,1,3,19,coding,arts,12,4,MBA
+281,22,UG,7.5,78,65,52,58,3,2,3,3,3,22,"sports, coding, history",business,11,4,Medicine
+282,13,Grade 10,8.9,63,72,61,58,3,3,2,3,3,22,"reading, history",arts,16,9,Engineering
+283,13,Grade 10,8.3,91,64,70,75,3,3,4,1,3,21,"research, travel",healthcare,9,5,Finance Manager
+284,18,UG,8.2,72,70,55,82,4,2,2,2,3,24,sports,technology,4,3,Software Engineer
+285,21,UG,8.5,62,61,60,54,3,5,4,3,2,17,travel,healthcare,14,9,CA
+286,13,Grade 10,9.2,78,90,72,63,2,1,2,3,5,32,history,business,8,7,MBA
+287,17,Grade 12,7.8,67,85,79,94,2,3,1,4,2,21,"travel, sports",technology,17,6,IT Specialist
+288,13,Grade 10,8.6,61,100,59,81,2,2,2,3,3,17,gaming,business,12,7,Lawyer
+289,18,UG,6.7,65,79,74,68,3,3,2,3,2,23,"research, history, debate",business,9,8,Engineering
+290,17,Grade 12,6.8,59,56,50,79,3,1,3,3,5,14,"reading, gaming, sports",business,7,7,IT Specialist
+291,20,UG,9.5,75,66,67,53,3,2,2,2,3,18,"reading, writing, history",arts,12,3,CA
+292,22,UG,6.8,84,68,68,50,1,1,4,2,3,30,dance,healthcare,10,5,Lawyer
+293,21,UG,8.0,71,69,74,55,2,2,3,2,2,23,debate,arts,8,8,IT Specialist
+294,15,Grade 10,6.1,78,91,81,74,4,3,1,1,2,17,"reading, travel, coding",healthcare,6,8,Lawyer
+295,13,Grade 10,7.0,65,85,68,66,2,5,3,3,2,20,"finance, travel, gaming",arts,10,5,Engineering
+296,22,UG,8.4,77,77,67,64,3,2,3,3,2,18,gaming,technology,9,6,Medicine
+297,13,Grade 10,7.0,78,92,81,65,2,4,3,4,3,18,"science, coding",business,13,8,CA
+298,14,Grade 10,8.4,68,79,73,50,3,2,3,1,2,22,coding,technology,11,7,Engineering
+299,16,Grade 12,5.6,82,61,66,77,2,2,3,2,3,20,"coding, science",business,8,5,Historian
+300,18,UG,8.0,87,72,75,82,2,3,2,1,2,11,"finance, reading",business,8,7,IT Specialist
+301,13,Grade 10,8.0,68,86,69,70,3,2,3,3,2,16,"gaming, history",business,10,9,CA
+302,23,UG,8.6,69,74,74,66,2,4,3,1,1,19,"reading, history",arts,7,5,Software Engineer
+303,18,UG,7.9,64,74,56,79,3,2,3,3,3,19,"travel, writing, research",technology,10,6,MBA
+304,19,UG,8.3,83,72,77,67,2,2,3,3,1,20,"reading, writing, painting",technology,7,9,Medicine
+305,17,Grade 12,5.9,73,76,67,58,2,5,3,3,3,16,research,arts,6,4,Defence Persenal
+306,15,Grade 10,6.6,69,82,68,66,5,1,1,4,1,29,sports,arts,8,5,Lawyer
+307,23,UG,10.0,90,79,77,72,3,1,2,2,3,15,"dance, research",healthcare,14,3,Defence Persenal
+308,17,Grade 12,7.0,71,74,65,74,2,4,1,4,2,12,writing,technology,17,5,Medicine
+309,22,UG,7.3,88,89,69,58,4,5,3,4,1,18,debate,healthcare,7,8,Arts
+310,15,Grade 10,7.8,82,73,66,60,1,2,4,3,3,21,"science, music",technology,10,6,CA
+311,16,Grade 12,6.3,72,89,59,74,3,3,3,1,2,14,"history, finance",technology,12,7,IT Specialist
+312,19,UG,6.6,76,61,50,63,1,1,4,4,2,13,"painting, gaming, coding",arts,12,8,Historian
+313,25,PG,9.4,77,60,58,96,3,3,3,2,4,22,debate,technology,9,5,Software Engineer
+314,21,UG,8.5,61,59,92,76,4,3,2,3,1,32,"coding, writing",healthcare,7,5,Arts
+315,21,UG,6.9,73,67,69,71,4,2,1,1,3,18,"sports, science, gaming",technology,10,5,MBA
+316,25,PG,7.3,62,85,92,50,2,2,4,3,2,22,"dance, science, gaming",healthcare,14,7,Data Scientist
+317,21,UG,8.9,99,85,84,67,5,3,3,1,1,22,"painting, gaming, coding",technology,10,6,Finance Manager
+318,22,UG,5.9,58,84,58,81,2,3,2,2,3,28,"research, music",technology,9,6,MBA
+319,20,UG,8.0,61,70,75,67,3,3,2,1,3,14,"gaming, dance, coding",arts,15,6,Lawyer
+320,18,UG,7.9,81,69,52,76,2,1,1,2,2,19,"music, travel",business,8,7,Engineering
+321,20,UG,8.0,76,87,86,55,1,2,2,2,3,22,"dance, debate, history",technology,7,7,Finance Manager
+322,18,UG,7.1,72,72,87,79,1,3,3,1,2,19,painting,business,11,8,Finance Manager
+323,17,Grade 12,7.8,76,68,100,68,3,3,2,3,3,24,history,business,9,9,Lawyer
+324,13,Grade 10,6.3,65,85,81,54,2,4,5,1,2,19,debate,arts,6,5,Finance Manager
+325,29,UG,10.0,75,73,78,58,3,2,1,3,1,9,"finance, sports, history",technology,7,8,Historian
+326,15,Grade 10,7.6,94,95,83,69,3,3,1,3,3,26,"reading, research, finance",arts,7,5,Lawyer
+327,24,UG,6.4,85,75,59,96,3,3,3,3,1,25,dance,business,14,7,Software Engineer
+328,19,UG,8.8,80,83,58,80,2,2,3,4,1,16,"coding, travel",technology,8,5,MBA
+329,14,Grade 10,8.2,74,76,58,70,2,2,4,1,5,23,gaming,business,7,5,Finance Manager
+330,22,UG,6.3,68,68,57,75,1,4,4,3,4,13,"writing, travel",healthcare,10,7,Engineering
+331,19,UG,6.1,66,61,50,59,3,1,4,2,3,21,science,technology,9,5,Software Engineer
+332,22,UG,9.9,79,80,81,87,2,2,1,2,3,20,"reading, coding, writing",technology,12,9,Arts
+333,26,PG,8.3,82,74,50,69,1,4,1,4,3,29,"gaming, history",business,9,5,CA
+334,20,UG,7.2,66,67,62,66,2,2,2,4,4,22,"history, dance, gaming",arts,10,3,Historian
+335,18,UG,7.4,69,67,76,66,1,2,2,2,3,22,"dance, sports, science",business,9,5,Arts
+336,14,Grade 10,10.0,62,82,70,72,1,1,2,4,3,9,"sports, debate",business,7,7,IT Specialist
+337,21,UG,7.1,85,95,53,70,2,3,1,4,2,22,finance,business,5,5,MBA
+338,15,Grade 10,7.7,70,54,65,60,5,5,3,3,2,19,"reading, finance",technology,15,5,Defence Persenal
+339,20,UG,8.3,60,75,72,87,2,4,1,4,2,15,"dance, research, gaming",technology,7,7,Software Engineer
+340,20,UG,7.7,91,50,57,86,4,3,2,2,3,9,"writing, music, history",technology,8,5,CA
+341,14,Grade 10,7.3,80,82,53,63,3,3,1,3,3,21,science,technology,17,9,Data Scientist
+342,18,UG,6.1,69,50,71,71,2,2,2,1,2,33,gaming,healthcare,14,7,Data Scientist
+343,23,PG,7.8,79,83,67,60,2,1,2,3,3,23,reading,healthcare,11,6,Historian
+344,17,Grade 12,7.7,73,88,67,81,2,3,3,4,2,11,debate,arts,12,8,Software Engineer
+345,13,Grade 10,8.6,92,78,82,52,2,4,3,2,2,19,reading,healthcare,7,7,Arts
+346,19,UG,7.6,59,64,59,57,4,2,3,4,2,24,sports,healthcare,9,8,Software Engineer
+347,30,UG,6.1,58,71,81,56,2,4,2,2,2,13,"travel, writing, history",healthcare,7,6,Arts
+348,22,UG,7.8,90,50,72,60,1,3,3,2,2,17,"writing, history, finance",healthcare,9,4,Medicine
+349,13,Grade 10,7.7,58,66,72,69,1,5,3,1,3,22,"history, music, sports",business,10,5,Data Scientist
+350,26,UG,9.2,99,74,62,71,3,2,5,5,1,21,"painting, travel, debate",business,11,6,Historian
+351,23,UG,7.4,73,79,64,64,3,1,3,3,3,26,"writing, dance",healthcare,7,6,IT Specialist
+352,15,Grade 10,7.8,71,50,63,61,3,2,3,4,3,16,finance,technology,6,4,Finance Manager
+353,17,Grade 12,7.3,82,69,63,67,2,2,2,4,2,15,science,technology,7,7,Lawyer
+354,25,UG,8.0,79,77,82,60,5,3,2,2,4,27,painting,healthcare,10,9,Arts
+355,16,Grade 12,9.4,70,72,57,74,3,3,3,1,3,19,writing,arts,11,9,IT Specialist
+356,17,Grade 12,8.0,68,77,72,74,3,2,5,2,2,16,reading,arts,9,3,MBA
+357,23,UG,7.8,87,68,68,93,2,2,2,2,2,13,"dance, history",business,12,6,MBA
+358,13,Grade 10,9.0,64,71,76,63,1,4,4,2,1,19,"debate, sports",arts,10,8,Engineering
+359,14,Grade 10,8.0,64,85,67,79,4,3,3,4,2,15,painting,arts,6,4,Lawyer
+360,23,PG,8.5,79,77,77,90,4,3,2,2,2,18,finance,arts,7,8,MBA
+361,23,PG,7.2,96,76,62,62,3,1,3,4,3,21,"history, writing",business,11,9,MBA
+362,19,UG,6.1,78,85,65,75,1,3,3,3,4,22,gaming,healthcare,11,8,Engineering
+363,22,UG,6.3,78,67,86,60,3,2,1,1,1,14,sports,arts,5,5,Arts
+364,22,UG,6.9,93,70,52,80,3,4,3,3,2,17,travel,arts,9,9,CA
+365,16,Grade 12,7.5,83,68,50,72,2,2,2,4,3,22,history,arts,8,6,IT Specialist
+366,18,UG,8.1,59,74,84,61,2,3,3,2,2,10,"finance, research",arts,7,7,CA
+367,17,Grade 12,6.6,65,71,65,72,2,3,4,3,1,16,"music, history, writing",arts,5,5,CA
+368,22,UG,9.8,66,68,79,70,1,4,3,3,2,12,painting,technology,8,5,Software Engineer
+369,24,PG,7.3,66,70,87,53,1,2,2,4,2,27,"gaming, coding, reading",business,8,3,Historian
+370,16,Grade 12,7.0,51,50,80,62,5,4,3,1,2,16,"finance, music",technology,8,4,Defence Persenal
+371,22,UG,8.3,90,70,63,69,3,3,2,2,2,27,reading,arts,11,7,MBA
+372,17,Grade 12,6.3,71,78,88,83,3,3,2,2,2,16,"science, research, travel",technology,13,7,Medicine
+373,19,UG,7.6,100,92,87,81,2,3,3,2,1,13,"research, science, writing",technology,9,4,Medicine
+374,25,PG,8.4,66,56,100,79,2,1,4,3,3,23,"gaming, writing",technology,4,10,Historian
+375,19,UG,7.6,68,88,79,59,1,3,3,1,1,9,"coding, science",technology,13,8,Finance Manager
+376,13,Grade 10,8.4,59,61,68,77,3,4,4,1,2,26,"coding, dance, travel",technology,19,7,MBA
+377,17,Grade 12,6.9,71,52,57,65,2,2,2,2,2,18,sports,technology,6,6,Engineering
+378,25,UG,6.8,70,81,86,59,1,5,4,4,4,22,coding,technology,10,9,Data Scientist
+379,19,UG,6.5,76,65,70,85,5,3,5,2,1,21,reading,business,10,7,Finance Manager
+380,24,UG,7.1,81,66,84,98,2,3,3,3,2,21,"music, painting",healthcare,14,5,Engineering
+381,20,UG,6.0,68,74,68,80,3,1,1,2,2,21,debate,technology,10,7,Lawyer
+382,19,UG,7.2,65,64,71,72,2,1,4,2,3,33,"coding, research, music",healthcare,6,6,Finance Manager
+383,15,Grade 10,8.2,86,74,73,73,3,3,2,3,3,17,"travel, coding",healthcare,3,8,Arts
+384,23,PG,7.0,62,91,78,71,3,1,3,3,4,12,"history, dance, research",arts,8,4,Engineering
+385,24,PG,9.2,85,91,74,74,3,2,3,3,4,29,dance,arts,8,9,IT Specialist
+386,24,UG,6.0,79,81,67,75,3,2,3,3,3,12,"sports, research",healthcare,7,7,Medicine
+387,30,PG,6.7,88,81,92,52,1,1,4,1,2,24,"painting, coding, history",business,10,6,CA
+388,18,UG,6.0,59,71,59,71,2,3,2,1,2,17,"finance, history, reading",business,10,8,Arts
+389,24,UG,10.0,88,85,71,71,3,1,1,3,3,23,"research, history, reading",technology,14,5,Software Engineer
+390,13,Grade 10,6.8,85,89,59,71,4,3,3,2,3,20,"research, gaming",healthcare,6,6,Data Scientist
+391,20,UG,8.6,62,70,91,68,2,2,2,2,3,16,gaming,arts,10,6,CA
+392,19,UG,8.7,74,60,71,88,4,3,2,2,2,18,"research, dance",healthcare,11,8,Medicine
+393,17,Grade 12,6.8,71,74,56,81,3,3,4,3,3,9,"coding, reading",healthcare,5,6,Historian
+394,19,UG,5.0,92,69,60,77,2,4,4,4,3,31,history,technology,8,7,MBA
+395,24,UG,7.6,81,76,86,97,2,2,2,3,1,13,"sports, dance, science",business,10,8,Arts
+396,20,UG,9.0,83,70,82,60,2,3,4,3,3,16,"music, travel",healthcare,13,10,Engineering
+397,14,Grade 10,6.1,66,50,50,65,3,2,4,2,3,9,travel,business,10,3,CA
+398,16,Grade 12,6.3,87,78,61,70,2,2,3,3,4,21,"dance, research, debate",technology,6,6,Engineering
+399,26,PG,8.2,80,96,82,88,2,2,2,3,3,22,"science, research",business,8,3,Data Scientist
+400,19,UG,6.6,81,58,61,74,1,3,2,2,3,14,"travel, painting, coding",arts,13,6,Arts
+401,20,UG,8.9,92,81,67,63,2,3,2,3,4,17,"science, finance",healthcare,15,7,Finance Manager
+402,17,Grade 12,7.4,79,85,69,81,2,2,4,3,4,27,dance,technology,12,7,Defence Persenal
+403,19,UG,6.0,60,72,64,58,2,3,3,1,4,6,"travel, gaming",healthcare,7,4,CA
+404,19,UG,7.9,68,69,50,67,2,2,2,3,4,23,"sports, research",healthcare,11,8,Lawyer
+405,20,UG,9.5,72,73,63,71,4,5,2,2,1,19,coding,technology,11,9,MBA
+406,24,PG,8.8,78,55,91,72,2,2,2,3,3,27,research,technology,10,7,Lawyer
+407,15,Grade 10,9.5,78,75,71,70,1,4,2,2,3,12,"music, reading, history",business,3,8,Finance Manager
+408,21,UG,7.0,80,70,72,52,4,2,2,1,5,31,"dance, debate",technology,9,9,IT Specialist
+409,13,Grade 10,7.5,77,89,68,62,5,2,4,2,1,19,coding,technology,10,9,Arts
+410,17,Grade 12,8.4,90,59,59,86,3,2,2,2,1,32,"science, travel, sports",healthcare,5,6,Finance Manager
+411,20,UG,7.6,61,79,93,64,3,3,5,3,3,28,research,technology,9,10,Finance Manager
+412,20,UG,8.2,73,78,56,86,4,3,3,2,1,11,music,business,14,6,IT Specialist
+413,26,PG,7.2,61,78,71,59,1,2,4,2,5,19,"sports, science",healthcare,12,3,Software Engineer
+414,26,UG,6.7,87,78,91,89,3,1,4,3,2,10,"coding, finance, history",healthcare,7,7,Lawyer
+415,23,UG,8.2,74,61,62,92,2,1,3,3,2,15,"coding, science, dance",healthcare,8,7,Finance Manager
+416,28,PG,8.3,78,55,84,69,4,2,1,3,2,18,reading,arts,14,5,Software Engineer
+417,17,Grade 12,8.0,79,80,68,50,4,3,5,3,2,18,"dance, writing",business,11,10,Lawyer
+418,18,UG,7.0,86,78,91,65,2,4,4,3,3,23,"science, sports, travel",technology,15,6,Medicine
+419,30,PG,7.0,62,65,89,52,3,3,3,3,2,16,sports,arts,7,8,Data Scientist
+420,19,UG,7.5,90,75,66,68,1,3,2,2,2,17,"reading, coding, travel",healthcare,8,3,Lawyer
+421,14,Grade 10,7.6,88,72,87,61,2,4,1,2,3,24,"reading, writing",healthcare,8,8,Defence Persenal
+422,14,Grade 10,6.5,64,58,76,73,3,1,2,2,1,17,coding,technology,12,7,Defence Persenal
+423,24,PG,8.0,81,76,60,62,3,2,2,5,1,16,"travel, painting",technology,11,10,Software Engineer
+424,25,PG,8.8,66,76,60,50,3,3,5,3,2,16,"science, coding",arts,16,6,CA
+425,17,Grade 12,7.4,86,79,65,68,2,3,2,4,2,26,"travel, sports",business,7,5,Finance Manager
+426,19,UG,9.2,80,84,95,84,4,3,3,2,1,7,history,business,8,7,Medicine
+427,23,UG,6.0,88,66,62,77,2,3,3,2,3,22,"sports, painting, debate",healthcare,7,9,IT Specialist
+428,27,UG,8.9,96,65,82,70,3,2,3,3,2,24,"music, research, dance",healthcare,7,3,CA
+429,24,UG,6.7,81,77,62,50,3,1,3,2,1,21,painting,technology,9,9,Medicine
+430,20,UG,8.0,78,72,61,70,3,3,1,3,3,22,"finance, gaming, research",business,6,8,Arts
+431,13,Grade 10,9.6,61,67,81,83,3,2,4,4,4,11,"music, travel, finance",arts,11,7,CA
+432,22,UG,7.1,74,74,84,58,3,4,2,2,3,22,"music, science, finance",arts,16,6,Defence Persenal
+433,19,UG,6.9,78,80,81,76,3,2,1,4,4,23,"science, writing",arts,5,3,MBA
+434,23,UG,6.4,78,63,86,79,2,3,4,3,3,6,"painting, coding",arts,13,9,MBA
+435,21,UG,10.0,74,73,81,87,2,1,1,2,3,22,"writing, finance",business,11,3,Software Engineer
+436,22,UG,6.6,69,61,54,96,2,2,2,1,3,17,"travel, finance",technology,12,7,Lawyer
+437,18,UG,5.0,86,86,68,60,3,3,3,2,3,10,"travel, finance, debate",arts,10,3,Defence Persenal
+438,13,Grade 10,6.8,81,77,60,81,2,2,1,3,1,25,"reading, travel",business,4,7,MBA
+439,16,Grade 12,8.2,99,77,61,60,3,1,4,2,2,18,"music, reading",arts,8,5,Finance Manager
+440,25,UG,5.3,61,100,74,78,4,1,1,2,5,26,"history, coding",business,8,9,MBA
+441,17,Grade 12,7.4,75,71,64,69,1,2,2,2,1,19,travel,business,8,5,Historian
+442,17,Grade 12,7.0,81,80,82,54,4,2,2,3,4,17,"finance, research, history",healthcare,9,7,Arts
+443,20,UG,6.6,66,66,76,52,3,2,3,2,3,27,"coding, history, dance",healthcare,10,7,IT Specialist
+444,13,Grade 10,7.2,77,66,69,67,1,4,1,1,3,20,"music, finance, travel",business,10,7,Finance Manager
+445,18,UG,6.3,82,68,73,54,1,1,2,1,2,11,"gaming, reading",arts,8,3,CA
+446,20,UG,8.2,76,78,59,72,4,3,1,2,4,16,"coding, finance, history",business,8,3,Defence Persenal
+447,17,Grade 12,6.6,74,77,55,75,4,2,3,1,1,8,"sports, travel",arts,9,8,Finance Manager
+448,22,UG,7.3,67,71,60,64,3,2,2,2,2,20,"coding, reading",arts,9,3,MBA
+449,20,UG,6.2,80,65,79,63,2,3,3,1,3,28,"history, music, science",arts,10,6,CA
+450,22,UG,7.2,57,62,72,60,4,3,3,1,4,15,painting,technology,7,5,MBA
+451,21,UG,8.2,73,73,57,88,4,2,2,2,1,20,writing,business,9,9,MBA
+452,19,UG,8.3,79,92,94,86,2,3,4,4,3,12,"sports, writing, reading",arts,16,6,Engineering
+453,28,PG,8.7,74,82,75,70,2,4,2,3,4,15,"history, debate, gaming",arts,11,7,Data Scientist
+454,18,UG,6.7,80,58,56,71,1,3,2,4,1,26,"reading, science, music",technology,7,7,CA
+455,21,UG,7.2,76,62,76,54,3,3,2,3,3,19,writing,technology,7,5,CA
+456,24,UG,7.5,54,54,72,66,4,1,5,3,2,19,debate,technology,10,3,Defence Persenal
+457,15,Grade 10,8.7,68,87,88,75,3,2,3,2,2,22,gaming,technology,11,7,Data Scientist
+458,24,PG,8.8,72,77,76,57,2,1,4,3,3,15,"finance, coding",arts,6,8,Lawyer
+459,20,UG,6.6,86,60,84,50,4,3,2,2,5,25,"history, coding",healthcare,7,5,MBA
+460,24,UG,8.4,64,82,77,57,3,2,1,4,4,19,"reading, painting, finance",arts,10,4,Lawyer
+461,25,UG,8.3,94,68,57,55,2,3,4,4,3,28,history,technology,9,4,IT Specialist
+462,17,Grade 12,6.8,79,79,65,54,3,2,3,1,1,23,finance,business,14,8,Historian
+463,15,Grade 10,7.0,81,67,72,60,2,3,2,3,1,23,dance,healthcare,10,4,Historian
+464,20,UG,5.9,61,60,52,55,2,1,2,3,2,18,"research, music",technology,11,8,Engineering
+465,21,UG,8.5,69,77,82,82,5,3,2,1,1,30,"research, travel",arts,6,5,Lawyer
+466,17,Grade 12,7.9,82,60,59,67,1,1,3,4,1,20,"dance, gaming",technology,12,6,IT Specialist
+467,22,UG,8.9,80,59,83,65,4,1,2,2,4,27,"painting, history, debate",business,9,5,Software Engineer
+468,14,Grade 10,6.6,65,61,68,55,3,3,2,4,3,9,music,business,13,10,Software Engineer
+469,25,PG,8.6,64,94,76,71,4,4,2,3,1,26,"sports, reading",technology,8,7,Defence Persenal
+470,13,Grade 10,7.6,98,57,63,87,1,2,2,2,4,17,"finance, debate",healthcare,8,10,Engineering
+471,21,UG,9.6,56,73,53,64,2,3,3,2,2,16,"reading, writing, debate",technology,14,5,Arts
+472,16,Grade 12,5.5,73,90,56,68,3,1,3,1,2,18,gaming,arts,7,9,IT Specialist
+473,22,UG,8.1,84,72,71,75,3,1,1,3,2,20,research,healthcare,9,6,Arts
+474,21,UG,6.1,79,78,69,85,5,3,3,1,1,20,"reading, science, writing",technology,8,5,IT Specialist
+475,26,PG,7.9,56,84,73,60,3,3,2,3,3,17,"reading, sports, dance",technology,18,8,Data Scientist
+476,25,UG,8.8,78,82,78,66,2,4,2,2,3,29,"music, gaming",technology,8,6,Arts
+477,24,PG,8.6,69,61,64,61,3,4,4,3,5,40,"reading, sports, research",arts,6,7,Software Engineer
+478,21,UG,8.0,73,72,70,60,4,3,1,2,3,28,"coding, debate, sports",healthcare,8,5,MBA
+479,13,Grade 10,7.6,83,68,64,71,2,4,2,3,1,31,"reading, debate, coding",technology,9,8,Defence Persenal
+480,13,Grade 10,7.7,75,83,54,60,1,2,3,3,2,35,"sports, writing",healthcare,17,8,Arts
+481,15,Grade 10,8.0,70,77,68,58,2,3,5,2,2,40,finance,business,11,6,IT Specialist
+482,20,UG,7.9,58,80,82,56,2,2,3,3,2,8,"reading, writing, history",healthcare,9,9,IT Specialist
+483,18,UG,10.0,79,52,90,59,1,3,3,2,3,18,"research, painting",technology,6,7,Lawyer
+484,18,UG,6.3,74,73,71,59,3,2,1,2,4,25,"gaming, coding, painting",business,13,8,Defence Persenal
+485,21,UG,6.8,72,71,61,59,1,3,4,4,4,11,"painting, dance",healthcare,9,4,Finance Manager
+486,21,UG,6.7,79,74,59,76,2,3,2,4,4,16,debate,arts,7,9,Defence Persenal
+487,18,UG,5.7,65,78,73,67,4,3,3,3,4,20,"research, reading",technology,6,7,Arts
+488,23,UG,6.7,86,63,82,64,3,3,1,1,2,21,"sports, painting",business,9,8,Data Scientist
+489,22,UG,6.5,67,70,66,54,4,2,1,2,2,19,"science, painting",technology,17,5,Data Scientist
+490,18,UG,7.4,91,81,72,95,2,3,4,2,4,10,"coding, finance, music",technology,7,5,Software Engineer
+491,16,Grade 12,9.3,72,79,68,59,1,3,2,2,1,27,history,arts,12,3,Finance Manager
+492,20,UG,6.4,79,74,68,82,4,2,2,3,4,8,"dance, writing, debate",technology,10,8,Engineering
+493,23,PG,7.3,69,78,56,78,2,3,1,3,3,14,science,healthcare,9,7,Medicine
+494,13,Grade 10,7.5,98,65,77,82,2,2,3,1,4,18,"history, reading, sports",business,9,7,Finance Manager
+495,17,Grade 12,7.6,97,65,58,86,4,3,3,3,2,23,painting,business,5,5,Medicine
+496,17,Grade 12,8.2,77,69,64,80,3,2,3,4,2,24,"history, gaming, sports",technology,12,7,CA
+497,14,Grade 10,7.4,73,77,77,65,1,2,2,1,2,12,finance,healthcare,8,9,Lawyer
+498,18,UG,7.5,78,65,80,89,2,2,2,2,2,19,"writing, coding",business,12,8,IT Specialist
+499,21,UG,6.5,84,82,74,50,3,2,3,4,4,21,"coding, dance, music",healthcare,12,5,CA
+500,21,UG,6.2,76,72,50,73,4,2,5,1,2,18,"writing, painting, research",technology,9,5,Finance Manager
+501,25,UG,8.5,68,79,57,81,3,4,3,3,2,24,"music, dance",arts,10,4,Medicine
+502,23,UG,8.3,88,60,58,54,3,3,3,1,3,21,"writing, travel, dance",technology,11,7,Medicine
+503,23,UG,6.0,66,68,78,77,1,2,2,4,3,21,"sports, science, history",arts,12,6,Medicine
+504,25,UG,6.6,80,86,69,72,2,1,2,1,3,21,"painting, sports",arts,9,6,Historian
+505,26,UG,6.1,96,61,58,58,3,2,3,3,4,23,"music, science, history",healthcare,8,8,Finance Manager
+506,18,UG,9.0,74,65,76,77,2,4,2,4,4,9,painting,business,11,5,Engineering
+507,22,UG,8.4,93,56,69,60,4,4,2,3,3,25,"coding, reading",business,10,6,IT Specialist
+508,25,PG,7.6,79,89,78,60,4,2,2,3,4,21,debate,business,11,7,Data Scientist
+509,19,UG,8.7,83,76,53,91,2,3,3,3,2,16,painting,business,9,3,Lawyer
+510,16,Grade 12,8.1,69,73,55,85,4,2,2,2,4,15,"reading, writing, music",healthcare,11,9,Software Engineer
+511,24,PG,5.8,51,89,65,50,1,3,3,4,3,18,"finance, reading, music",technology,8,10,Data Scientist
+512,14,Grade 10,7.0,73,78,74,94,3,2,2,2,3,19,sports,healthcare,6,7,Medicine
+513,19,UG,8.5,81,71,50,89,4,3,3,4,4,12,"gaming, debate",healthcare,11,10,Defence Persenal
+514,13,Grade 10,8.4,75,73,65,73,3,1,4,3,1,17,dance,arts,12,5,Medicine
+515,24,PG,8.7,69,67,60,50,3,3,3,5,3,28,"debate, travel",arts,9,7,Historian
+516,26,UG,6.9,77,83,53,70,2,2,4,5,1,21,"dance, gaming",arts,6,9,Defence Persenal
+517,23,UG,8.3,59,65,70,64,2,1,2,4,1,17,"finance, history",business,8,6,Finance Manager
+518,23,PG,5.8,79,68,57,59,2,3,2,3,4,8,"painting, debate, writing",technology,11,5,Finance Manager
+519,13,Grade 10,8.8,75,84,58,81,3,1,3,4,2,21,"research, gaming",healthcare,12,8,CA
+520,17,Grade 12,5.2,77,65,79,74,2,4,2,2,3,24,science,business,17,7,Medicine
+521,14,Grade 10,7.3,83,73,61,100,4,4,1,1,4,25,music,arts,9,6,CA
+522,15,Grade 10,7.1,77,50,61,61,1,4,2,3,3,21,"research, science, travel",arts,7,7,Arts
+523,17,Grade 12,10.0,67,79,79,80,3,1,3,2,2,22,music,arts,9,3,Data Scientist
+524,24,UG,6.8,61,77,64,63,2,3,4,2,3,31,"gaming, music, reading",arts,13,8,Finance Manager
+525,22,UG,8.8,65,72,65,68,4,2,3,3,1,26,"sports, research, travel",business,12,7,Finance Manager
+526,14,Grade 10,8.7,90,69,64,65,1,2,2,3,2,25,"coding, painting",business,12,7,Medicine
+527,13,Grade 10,9.6,50,77,95,81,3,3,3,4,2,12,science,arts,4,7,CA
+528,18,UG,7.5,68,67,79,55,1,3,3,2,3,18,finance,healthcare,7,5,Software Engineer
+529,15,Grade 10,7.6,91,73,82,77,4,2,4,1,3,13,"dance, writing",technology,5,6,Engineering
+530,28,PG,6.7,81,84,66,73,3,2,4,3,3,31,music,arts,12,6,Arts
+531,17,Grade 12,5.9,65,67,85,56,1,2,3,2,1,21,science,technology,9,8,Engineering
+532,21,UG,6.5,73,55,55,73,4,3,3,3,1,24,"debate, sports, research",healthcare,10,9,Engineering
+533,19,UG,8.0,65,74,58,86,2,2,4,2,3,11,"coding, reading",technology,13,9,MBA
+534,20,UG,7.6,66,84,80,68,2,3,3,1,2,23,sports,arts,13,3,IT Specialist
+535,21,UG,6.6,63,56,75,81,2,3,3,3,5,13,"writing, history",business,5,6,MBA
+536,16,Grade 12,6.5,81,70,68,72,3,3,4,2,3,21,finance,technology,11,5,Software Engineer
+537,19,UG,7.5,62,78,58,50,1,3,3,1,4,22,"coding, travel",arts,13,6,Lawyer
+538,20,UG,7.1,72,80,61,60,2,3,3,3,2,17,"sports, history, finance",technology,15,6,Software Engineer
+539,19,UG,8.5,82,79,69,81,1,2,2,2,4,21,research,healthcare,6,4,Historian
+540,13,Grade 10,7.7,79,78,73,52,4,2,3,2,1,17,"music, coding, writing",healthcare,5,7,Defence Persenal
+541,19,UG,7.6,75,83,66,89,2,3,3,2,4,18,"travel, coding",technology,7,5,IT Specialist
+542,24,PG,8.7,82,82,74,65,1,2,2,4,4,19,gaming,healthcare,15,7,Historian
+543,20,UG,8.3,65,64,50,82,4,1,3,3,2,18,"finance, writing",business,14,4,Engineering
+544,17,Grade 12,5.9,77,69,76,73,1,2,3,4,3,17,"finance, travel",healthcare,6,10,Arts
+545,22,UG,7.5,72,79,80,68,3,3,2,2,2,13,finance,arts,11,7,IT Specialist
+546,20,UG,8.6,77,71,88,75,3,3,1,3,4,18,reading,technology,11,8,Software Engineer
+547,17,Grade 12,6.0,73,76,80,67,4,1,2,3,3,16,"debate, writing, sports",business,13,3,Historian
+548,23,UG,7.4,67,79,55,52,3,3,1,2,2,30,travel,healthcare,7,9,IT Specialist
+549,14,Grade 10,8.6,88,72,72,71,1,1,1,3,3,23,gaming,business,10,8,Software Engineer
+550,28,PG,9.4,93,94,59,66,2,2,2,2,2,18,"debate, music, finance",business,6,6,Medicine
+551,19,UG,7.7,76,85,82,56,2,2,3,2,4,19,gaming,arts,11,6,Engineering
+552,14,Grade 10,6.8,66,75,57,60,4,3,2,3,5,24,"gaming, reading",healthcare,8,3,Defence Persenal
+553,19,UG,7.3,79,67,71,64,3,3,2,2,4,19,"research, music, history",technology,7,3,MBA
+554,28,UG,5.0,76,84,63,71,1,3,2,2,2,20,"painting, travel, coding",technology,11,5,Arts
+555,22,UG,6.7,67,83,86,72,4,3,3,3,1,12,science,healthcare,7,10,MBA
+556,21,UG,8.8,89,79,65,53,1,3,5,4,3,26,"painting, music",arts,9,3,CA
+557,13,Grade 10,9.4,84,81,86,79,3,3,3,2,1,16,debate,arts,8,7,CA
+558,15,Grade 10,6.3,98,65,84,62,1,3,3,2,1,18,"science, history, coding",technology,12,8,Data Scientist
+559,17,Grade 12,7.2,78,84,60,64,2,3,1,1,2,20,science,healthcare,6,7,Arts
+560,26,PG,5.1,59,76,91,67,1,4,2,3,3,26,"writing, history",healthcare,8,10,Lawyer
+561,14,Grade 10,8.8,83,76,76,56,3,2,4,3,2,25,"reading, research, dance",healthcare,15,3,MBA
+562,14,Grade 10,6.7,75,90,66,76,4,3,2,4,2,27,"painting, writing, dance",technology,10,7,Software Engineer
+563,23,UG,6.2,73,67,83,61,1,1,2,3,2,7,travel,business,11,5,Lawyer
+564,25,PG,7.6,71,88,69,61,2,2,2,2,2,22,painting,healthcare,8,8,Engineering
+565,24,UG,6.6,68,84,66,70,3,3,3,1,2,17,reading,healthcare,18,5,Finance Manager
+566,22,UG,6.4,87,85,77,89,1,2,1,4,1,16,music,healthcare,10,5,Lawyer
+567,18,UG,7.2,80,80,77,78,2,2,2,2,2,15,"gaming, writing, painting",business,9,6,Defence Persenal
+568,19,UG,6.8,66,78,54,83,2,3,3,1,2,20,"dance, travel",business,4,6,Finance Manager
+569,21,UG,6.3,83,80,52,79,4,3,3,4,4,21,writing,healthcare,13,7,Engineering
+570,16,Grade 12,7.1,82,66,54,56,2,3,2,2,3,26,"debate, reading",business,13,7,Engineering
+571,16,Grade 12,7.2,72,91,85,64,1,1,2,2,3,30,"reading, painting, finance",technology,5,7,Historian
+572,13,Grade 10,7.6,73,91,66,53,2,3,3,2,2,19,research,arts,9,9,CA
+573,23,PG,9.0,68,76,53,69,4,1,4,2,3,15,reading,healthcare,8,6,Engineering
+574,19,UG,9.3,71,86,71,61,2,3,4,3,4,17,"writing, sports",business,10,5,Historian
+575,17,Grade 12,7.9,68,80,86,81,3,4,2,3,2,23,finance,arts,10,6,Defence Persenal
+576,17,Grade 12,7.5,54,88,61,55,3,3,1,3,2,13,research,healthcare,10,3,IT Specialist
+577,16,Grade 12,8.8,89,84,88,70,1,3,3,2,3,13,"sports, gaming",healthcare,9,5,IT Specialist
+578,23,UG,5.7,74,96,73,77,2,2,2,3,2,27,"dance, sports, coding",technology,3,5,Historian
+579,23,UG,7.3,72,92,56,82,3,3,3,2,1,28,"coding, dance",healthcare,8,3,Software Engineer
+580,20,UG,6.9,82,77,61,61,4,1,1,1,1,14,research,healthcare,9,6,Historian
+581,22,UG,6.9,80,77,77,50,2,2,1,1,3,24,research,arts,6,7,Arts
+582,18,UG,5.7,79,73,72,50,2,2,2,1,3,5,"dance, writing",arts,10,8,Arts
+583,28,UG,9.4,84,74,57,71,3,2,4,2,2,30,"research, science",arts,10,7,Software Engineer
+584,23,PG,7.4,81,94,58,63,4,1,2,3,1,13,"history, gaming, music",business,14,8,IT Specialist
+585,16,Grade 12,8.2,94,84,71,84,1,2,2,3,2,17,"painting, gaming, travel",technology,7,5,Lawyer
+586,20,UG,9.4,75,73,83,86,4,2,1,3,2,16,"painting, music",business,4,8,Arts
+587,21,UG,7.1,80,72,65,57,2,1,3,3,2,28,painting,business,6,6,Lawyer
+588,17,Grade 12,9.6,75,75,70,65,3,2,1,2,3,25,"gaming, history, coding",healthcare,6,7,Finance Manager
+589,19,UG,8.6,81,58,83,78,4,2,3,1,2,14,"finance, debate, research",technology,9,10,MBA
+590,17,Grade 12,7.4,75,83,72,62,2,3,3,1,1,18,"sports, gaming, debate",technology,13,6,Data Scientist
+591,15,Grade 10,8.5,55,68,66,75,1,2,4,2,3,28,"music, science",business,10,7,Finance Manager
+592,16,Grade 12,6.5,67,73,50,69,3,3,1,1,2,21,"finance, gaming",healthcare,10,6,Arts
+593,20,UG,7.3,66,69,53,96,3,3,3,3,1,7,"gaming, science",healthcare,8,6,Engineering
+594,21,UG,7.3,68,61,80,56,1,4,4,4,4,14,"reading, dance, sports",business,8,7,MBA
+595,16,Grade 12,7.9,99,69,85,74,2,3,3,3,5,23,"travel, gaming",healthcare,6,8,Data Scientist
+596,23,PG,6.8,87,85,72,78,3,2,4,2,3,23,painting,arts,12,7,Lawyer
+597,23,PG,8.4,56,75,60,75,3,2,3,3,1,29,debate,technology,12,9,Data Scientist
+598,20,UG,7.5,85,60,85,78,2,1,4,2,2,16,"debate, science",healthcare,10,5,Finance Manager
+599,13,Grade 10,9.4,82,76,57,64,4,4,3,4,3,21,"travel, coding, music",healthcare,9,7,CA
+600,22,UG,7.7,62,78,71,81,3,3,2,2,3,16,"science, finance",business,9,7,Engineering
+601,17,Grade 12,9.1,100,71,68,69,1,4,3,4,3,17,"research, painting",healthcare,5,7,Finance Manager
+602,22,UG,5.2,80,79,80,81,1,2,3,1,3,23,"writing, history, dance",technology,11,5,Arts
+603,20,UG,5.6,73,81,72,74,3,4,3,1,3,25,"reading, finance, science",business,7,7,MBA
+604,22,UG,8.6,67,68,73,64,4,3,3,3,4,19,"history, finance",business,6,8,Engineering
+605,21,UG,8.4,77,59,64,68,1,1,2,4,1,20,"music, gaming",arts,8,5,IT Specialist
+606,20,UG,6.0,64,91,72,55,2,3,2,3,3,10,"gaming, finance",business,10,5,Defence Persenal
+607,15,Grade 10,7.2,62,74,62,83,3,1,4,1,3,24,"coding, writing, music",arts,5,7,IT Specialist
+608,15,Grade 10,8.1,82,76,65,67,4,2,4,3,2,16,"music, gaming, travel",arts,12,8,CA
+609,30,PG,8.7,86,59,64,80,3,3,4,3,3,20,"reading, travel",arts,9,7,Lawyer
+610,20,UG,7.8,64,75,64,73,3,3,2,2,2,17,"gaming, science, dance",business,4,7,Finance Manager
+611,15,Grade 10,8.2,66,78,50,70,1,2,1,1,1,11,"music, coding, travel",healthcare,11,9,CA
+612,13,Grade 10,9.3,90,57,75,73,2,3,3,4,2,20,"music, coding",technology,11,7,Software Engineer
+613,20,UG,8.7,94,74,83,58,2,1,1,1,1,11,"music, sports, history",technology,6,9,Arts
+614,21,UG,7.4,69,65,62,81,4,2,3,3,3,24,"debate, finance",arts,10,6,Engineering
+615,21,UG,7.4,88,86,77,64,2,3,3,3,2,11,science,business,10,7,Engineering
+616,13,Grade 10,8.8,74,74,70,83,3,3,3,3,3,16,"gaming, travel, science",arts,12,6,Arts
+617,20,UG,6.5,72,61,64,63,2,2,2,2,3,15,coding,technology,13,4,Defence Persenal
+618,16,Grade 12,8.2,74,79,50,71,3,4,2,2,2,17,research,arts,13,8,Lawyer
+619,18,UG,8.7,82,90,59,58,1,2,3,2,3,16,"history, reading",arts,8,10,Arts
+620,21,UG,7.0,86,60,56,100,2,1,2,1,3,15,"research, debate, finance",business,12,4,CA
+621,15,Grade 10,7.0,75,80,62,76,3,4,1,4,1,15,"research, science, writing",arts,10,7,Engineering
+622,19,UG,8.3,84,74,63,77,4,3,4,2,1,17,"travel, reading, debate",technology,9,9,Lawyer
+623,19,UG,8.4,76,66,87,72,3,2,2,2,2,16,"coding, history",technology,9,8,Arts
+624,20,UG,6.4,81,85,81,87,4,3,3,2,3,23,"reading, coding, sports",technology,12,6,IT Specialist
+625,24,PG,9.1,80,55,94,70,3,2,2,3,4,25,"finance, dance",technology,5,8,Medicine
+626,25,UG,5.2,68,70,64,69,1,2,3,1,3,21,dance,technology,3,7,MBA
+627,24,UG,8.9,57,73,80,87,2,3,3,3,3,10,"gaming, science",technology,8,9,Medicine
+628,18,UG,9.3,67,70,79,66,4,3,3,2,3,14,music,arts,14,3,Finance Manager
+629,16,Grade 12,9.0,81,76,75,84,3,3,3,3,3,16,"history, coding, reading",arts,8,7,CA
+630,24,UG,9.3,79,60,61,74,2,2,2,3,3,22,gaming,business,11,7,Defence Persenal
+631,16,Grade 12,7.7,75,72,82,70,3,2,3,2,1,19,"travel, music",arts,10,9,CA
+632,16,Grade 12,7.5,85,57,75,70,1,3,5,2,1,29,"debate, painting, travel",business,8,5,Defence Persenal
+633,20,UG,9.6,82,61,63,62,2,2,3,4,3,21,writing,technology,10,7,IT Specialist
+634,17,Grade 12,8.5,84,68,63,96,4,2,2,1,1,16,music,healthcare,8,5,Arts
+635,20,UG,6.6,61,76,74,56,1,2,1,2,2,21,"music, coding, dance",arts,14,5,Historian
+636,16,Grade 12,9.3,85,81,84,71,1,1,3,2,1,14,dance,healthcare,10,6,Defence Persenal
+637,22,UG,7.7,89,100,63,60,1,3,2,2,3,22,"history, science",business,15,9,Data Scientist
+638,22,UG,6.8,59,79,88,68,2,5,2,1,3,21,"writing, painting",arts,10,7,Defence Persenal
+639,30,UG,7.5,74,77,68,53,3,3,3,2,3,22,dance,arts,7,3,Finance Manager
+640,14,Grade 10,8.1,68,76,73,75,2,2,3,4,1,14,"sports, history",arts,13,7,Data Scientist
+641,13,Grade 10,5.9,71,58,66,53,1,2,2,2,4,12,"writing, coding",technology,10,3,Engineering
+642,20,UG,7.2,83,76,51,71,3,3,3,3,2,19,"travel, finance, writing",healthcare,14,10,Finance Manager
+643,16,Grade 12,9.6,78,63,68,58,3,3,2,3,1,17,"gaming, music",technology,9,6,Lawyer
+644,23,PG,7.1,67,90,82,50,3,1,2,2,3,21,"writing, painting, dance",technology,6,6,Historian
+645,19,UG,10.0,70,63,75,60,3,3,3,3,3,12,"reading, writing",arts,7,8,Engineering
+646,22,UG,7.9,80,66,82,67,3,4,1,2,3,16,dance,technology,15,8,MBA
+647,28,UG,7.7,79,76,58,70,2,1,2,3,3,14,"debate, travel, history",technology,10,3,Data Scientist
+648,16,Grade 12,8.7,65,73,52,50,3,2,3,2,4,20,"finance, dance",business,7,9,CA
+649,15,Grade 10,7.4,73,71,65,89,2,3,4,2,4,19,"gaming, coding, finance",healthcare,9,5,Software Engineer
+650,28,PG,8.1,74,91,77,55,1,3,1,2,3,10,"travel, reading, research",arts,7,6,Software Engineer
+651,13,Grade 10,9.4,78,70,62,78,2,1,2,3,4,20,coding,arts,12,9,Finance Manager
+652,13,Grade 10,7.2,72,69,60,85,1,2,2,1,1,19,reading,arts,5,6,Data Scientist
+653,14,Grade 10,6.3,76,74,74,60,4,2,2,3,2,25,"painting, music",technology,4,9,IT Specialist
+654,24,UG,6.5,70,69,81,69,2,4,2,2,3,22,"sports, painting, history",technology,9,7,Arts
+655,18,UG,7.6,67,76,75,83,3,1,3,3,3,19,science,technology,10,6,Medicine
+656,21,UG,7.9,83,85,80,66,3,3,3,3,3,21,travel,technology,6,7,Lawyer
+657,20,UG,7.4,63,87,50,75,3,3,4,3,1,26,debate,healthcare,9,7,Historian
+658,20,UG,7.3,68,52,67,75,1,3,2,1,1,13,painting,business,14,8,Data Scientist
+659,22,UG,8.5,74,67,61,61,3,1,1,2,1,16,music,healthcare,7,10,Defence Persenal
+660,16,Grade 12,6.5,70,92,62,92,3,2,2,3,3,16,"dance, coding",business,8,5,Medicine
+661,13,Grade 10,6.0,52,90,77,79,1,2,2,3,3,13,"finance, science, debate",healthcare,11,8,MBA
+662,17,Grade 12,8.6,86,90,66,52,2,3,2,2,2,18,music,healthcare,9,3,Software Engineer
+663,14,Grade 10,8.7,75,82,96,79,3,1,5,4,3,23,travel,arts,9,6,Software Engineer
+664,21,UG,7.6,63,94,58,63,2,2,3,2,3,15,"painting, sports, debate",technology,11,10,Data Scientist
+665,23,UG,7.3,79,82,72,72,1,3,4,2,2,27,"history, debate, finance",arts,12,5,IT Specialist
+666,17,Grade 12,7.7,61,71,53,66,2,3,3,5,3,22,"science, music, reading",healthcare,9,6,Defence Persenal
+667,17,Grade 12,7.1,78,84,83,64,2,2,2,4,3,26,"finance, reading",business,12,4,Software Engineer
+668,20,UG,9.2,69,87,67,58,4,1,3,3,3,18,coding,technology,9,6,MBA
+669,19,UG,8.2,73,81,80,59,2,4,3,3,2,23,sports,arts,11,3,Defence Persenal
+670,19,UG,7.6,70,76,77,84,3,3,2,5,4,16,writing,business,12,8,Finance Manager
+671,17,Grade 12,8.6,82,84,52,65,2,2,4,2,3,23,"travel, sports",healthcare,8,7,Historian
+672,14,Grade 10,6.1,81,84,52,74,2,3,2,4,3,13,reading,arts,10,5,CA
+673,23,UG,9.8,87,86,54,87,3,3,3,1,3,13,travel,technology,13,9,Finance Manager
+674,19,UG,7.6,72,71,80,73,2,2,3,3,3,17,"coding, science, sports",business,8,5,Data Scientist
+675,15,Grade 10,7.4,70,66,50,57,2,4,3,4,1,20,"sports, history",arts,12,6,IT Specialist
+676,22,UG,7.3,69,88,82,76,2,2,1,2,4,23,finance,business,7,6,Historian
+677,20,UG,7.4,74,74,68,84,3,2,4,3,2,14,music,healthcare,13,6,Lawyer
+678,22,UG,7.0,64,55,62,68,2,3,2,3,1,13,"travel, history",healthcare,9,8,Arts
+679,22,UG,8.1,78,78,85,70,2,1,2,2,4,22,"painting, debate, gaming",technology,9,8,CA
+680,22,UG,7.7,78,64,62,70,3,2,2,4,4,19,travel,arts,10,8,Finance Manager
+681,14,Grade 10,7.6,76,78,86,77,4,3,2,3,3,14,"painting, reading",business,11,7,Arts
+682,18,UG,8.6,53,52,67,79,2,3,1,3,4,13,"travel, music, gaming",healthcare,6,5,MBA
+683,18,UG,8.3,71,85,88,60,1,5,3,3,2,22,gaming,technology,9,4,Data Scientist
+684,13,Grade 10,7.2,76,88,81,93,3,3,3,4,3,12,"dance, writing",technology,7,7,Finance Manager
+685,21,UG,8.0,79,88,75,65,3,3,1,1,2,24,"reading, travel, history",business,15,3,MBA
+686,26,UG,5.7,69,75,69,71,3,3,2,1,2,22,"painting, finance",business,11,5,Software Engineer
+687,13,Grade 10,7.8,62,96,53,72,1,2,2,2,2,27,"painting, history, dance",business,9,6,Engineering
+688,20,UG,8.5,93,85,63,86,2,2,1,2,3,21,"writing, gaming",business,10,9,Lawyer
+689,17,Grade 12,6.6,74,82,61,66,4,2,3,3,2,27,"writing, history",healthcare,8,7,Defence Persenal
+690,18,UG,7.7,67,72,77,50,1,3,2,3,1,10,"music, writing, dance",technology,9,7,Engineering
+691,21,UG,10.0,80,92,50,78,3,4,3,2,1,18,"reading, coding",business,13,7,Arts
+692,13,Grade 10,6.9,75,81,70,67,2,2,2,1,3,22,"research, debate, travel",technology,8,10,CA
+693,13,Grade 10,7.0,59,58,79,59,5,4,2,2,1,17,"dance, history",arts,12,8,Arts
+694,18,UG,8.1,90,65,77,69,2,2,3,2,2,15,"travel, science",business,12,5,Lawyer
+695,17,Grade 12,6.9,68,74,83,66,1,2,1,2,1,19,debate,healthcare,4,7,IT Specialist
+696,18,UG,7.7,84,67,74,79,1,3,3,3,1,16,"sports, painting",business,13,3,Arts
+697,19,UG,8.7,67,69,62,60,2,3,2,2,2,24,history,business,4,5,Medicine
+698,20,UG,7.3,66,85,50,70,3,1,1,1,3,14,"coding, writing, history",arts,7,5,Medicine
+699,20,UG,8.2,81,68,60,82,2,4,1,2,3,11,painting,business,8,6,Historian
+700,18,UG,8.6,80,73,86,59,2,4,2,1,3,13,painting,healthcare,14,6,IT Specialist
+701,22,UG,8.3,71,77,82,53,2,2,2,3,4,29,"painting, music",arts,8,10,Arts
+702,24,UG,7.5,65,80,58,62,3,3,3,2,4,23,"music, reading",business,14,7,Defence Persenal
+703,22,UG,6.8,76,69,85,80,3,2,4,1,2,23,"research, debate, painting",arts,11,10,Lawyer
+704,26,PG,7.9,80,70,57,83,4,3,2,2,4,15,"music, sports, dance",business,11,7,CA
+705,15,Grade 10,7.6,65,69,74,67,4,4,3,2,1,26,"painting, finance",healthcare,9,8,Lawyer
+706,16,Grade 12,8.3,63,74,86,80,3,3,3,3,3,13,"gaming, coding",technology,7,4,Historian
+707,15,Grade 10,6.2,78,71,79,67,4,2,1,3,3,26,"sports, coding",arts,10,5,Medicine
+708,19,UG,7.0,50,79,61,67,2,4,3,3,3,19,"debate, painting",healthcare,12,8,CA
+709,18,UG,9.4,62,81,66,50,2,4,1,3,2,16,"debate, research, writing",business,13,8,MBA
+710,23,PG,5.7,76,78,50,64,2,5,2,1,3,26,painting,healthcare,8,7,MBA
+711,17,Grade 12,7.0,85,61,67,94,3,3,3,2,1,9,"debate, history, writing",healthcare,12,7,Engineering
+712,21,UG,6.8,67,82,76,82,2,2,4,5,1,19,"science, debate, sports",arts,8,8,Arts
+713,18,UG,7.5,61,80,57,63,2,2,3,3,2,22,"history, painting, dance",healthcare,11,4,Medicine
+714,23,PG,5.9,74,71,65,50,2,2,4,1,2,20,sports,business,5,4,Historian
+715,18,UG,8.0,64,72,82,64,3,2,4,2,3,17,science,healthcare,10,5,Data Scientist
+716,16,Grade 12,8.0,91,79,59,70,4,1,1,1,1,12,"science, research, writing",technology,11,6,Medicine
+717,14,Grade 10,8.2,88,78,58,83,1,3,3,4,2,20,"dance, gaming",arts,11,10,Defence Persenal
+718,18,UG,8.5,87,83,60,52,1,2,2,3,3,32,travel,healthcare,4,7,Software Engineer
+719,23,UG,7.5,65,62,75,61,3,4,2,2,2,40,"finance, coding, research",technology,7,7,IT Specialist
+720,21,UG,7.1,77,72,82,63,2,2,3,4,1,31,"history, travel",healthcare,8,9,CA
+721,17,Grade 12,7.9,85,74,51,74,3,2,4,3,2,22,"finance, debate",arts,9,8,Software Engineer
+722,15,Grade 10,8.9,88,74,62,86,2,5,2,2,3,11,"reading, writing, history",technology,9,4,Software Engineer
+723,25,UG,8.8,69,72,50,64,3,3,2,4,2,19,debate,arts,11,6,CA
+724,25,UG,7.6,82,68,98,60,3,2,1,1,2,26,"reading, coding, writing",business,11,10,Lawyer
+725,16,Grade 12,10.0,81,70,58,57,3,3,1,2,1,23,"research, painting",technology,9,8,IT Specialist
+726,19,UG,9.0,67,66,53,68,2,3,1,3,3,11,"debate, dance",arts,12,6,Historian
+727,24,UG,7.8,76,79,76,88,4,3,3,3,3,22,science,healthcare,8,5,Defence Persenal
+728,22,UG,6.4,76,86,50,65,1,1,1,1,4,22,sports,technology,9,8,IT Specialist
+729,24,PG,7.5,71,78,61,82,3,3,3,3,3,7,"dance, painting",technology,8,7,Lawyer
+730,14,Grade 10,7.5,85,72,79,82,2,2,2,2,1,23,travel,business,8,9,Historian
+731,20,UG,6.5,78,69,70,81,2,4,1,3,3,13,"finance, writing",arts,9,3,Defence Persenal
+732,18,UG,8.2,95,75,51,77,2,2,5,3,3,15,"music, painting, dance",healthcare,3,6,Arts
+733,18,UG,6.7,63,76,76,64,2,2,3,3,4,8,research,arts,10,6,Medicine
+734,17,Grade 12,6.0,68,88,79,83,2,4,1,2,2,17,music,business,10,3,Defence Persenal
+735,21,UG,8.8,55,70,100,64,1,3,2,2,3,18,"research, gaming",technology,6,6,Medicine
+736,22,UG,7.9,73,87,74,64,3,4,3,2,2,26,debate,business,12,10,Finance Manager
+737,17,Grade 12,5.1,68,78,63,78,2,4,2,1,2,15,"writing, travel",business,5,5,Arts
+738,18,UG,8.1,75,66,59,53,1,4,1,3,3,13,"gaming, travel, research",technology,14,8,Medicine
+739,16,Grade 12,7.0,74,78,75,66,3,3,3,3,2,14,reading,technology,10,3,Lawyer
+740,25,UG,5.8,82,80,70,74,5,1,2,4,3,13,"writing, reading",arts,9,9,Historian
+741,22,UG,7.3,54,78,77,72,1,2,1,4,4,22,"sports, coding, painting",healthcare,14,6,Finance Manager
+742,17,Grade 12,8.9,65,70,61,52,2,2,2,2,2,29,music,healthcare,8,6,Defence Persenal
+743,13,Grade 10,6.1,70,82,68,90,1,1,2,2,5,23,"research, science, writing",arts,9,4,IT Specialist
+744,21,UG,8.0,77,70,80,54,2,1,3,3,2,17,gaming,technology,17,9,Historian
+745,20,UG,6.3,66,71,57,50,1,3,2,2,3,20,painting,technology,9,9,Engineering
+746,23,UG,6.4,77,78,74,84,2,2,3,1,2,37,writing,arts,11,5,Medicine
+747,21,UG,8.0,69,87,53,70,3,1,3,1,1,15,"painting, sports",technology,12,5,Medicine
+748,18,UG,6.8,53,73,53,100,3,3,3,3,3,20,"reading, coding, finance",healthcare,13,7,CA
+749,20,UG,7.1,83,62,82,74,1,2,2,1,2,20,"coding, music",business,11,10,IT Specialist
+750,18,UG,5.4,73,59,81,83,3,4,4,4,1,25,"painting, history, music",business,8,7,Arts
+751,27,UG,6.8,65,73,65,52,2,2,2,2,1,27,"painting, music, science",business,12,6,Engineering
+752,23,UG,10.0,93,85,67,82,3,3,1,2,1,34,"gaming, debate",technology,4,7,Engineering
+753,19,UG,8.4,84,82,79,63,1,1,4,3,2,17,sports,technology,6,6,MBA
+754,26,UG,7.4,86,68,73,58,3,3,3,1,4,29,"research, coding, debate",technology,13,8,MBA
+755,17,Grade 12,6.7,75,63,54,56,3,1,1,1,2,24,"coding, dance",business,14,5,CA
+756,13,Grade 10,7.4,75,64,68,70,1,1,2,1,1,9,"history, debate",technology,7,9,Historian
+757,14,Grade 10,8.4,91,74,80,60,3,3,3,4,4,25,debate,healthcare,13,9,Defence Persenal
+758,16,Grade 12,5.4,72,75,69,63,2,4,2,3,2,15,"gaming, dance",arts,11,6,Data Scientist
+759,25,UG,6.7,76,77,59,70,1,3,2,3,1,34,"writing, history, science",business,7,8,MBA
+760,13,Grade 10,9.2,71,77,64,57,1,1,3,1,2,28,"history, dance",healthcare,12,9,Arts
+761,25,PG,5.9,75,83,69,80,3,1,4,4,3,10,research,technology,12,8,MBA
+762,28,UG,6.8,78,75,87,79,1,2,5,3,1,18,"writing, travel",arts,10,7,Finance Manager
+763,23,PG,6.2,59,76,66,87,3,3,3,2,2,21,"finance, painting, research",technology,10,8,Data Scientist
+764,22,UG,9.0,72,71,73,71,3,1,1,3,1,29,"debate, dance",arts,16,6,Engineering
+765,18,UG,6.4,65,85,70,63,3,2,5,3,3,19,"coding, dance",technology,11,8,Engineering
+766,20,UG,5.3,64,67,50,74,3,2,4,3,3,13,"history, painting, travel",business,17,4,Defence Persenal
+767,25,PG,8.3,62,76,57,56,2,4,3,1,2,15,sports,healthcare,7,3,Historian
+768,19,UG,6.6,69,63,71,74,2,2,2,2,3,27,"sports, debate, coding",business,13,6,Historian
+769,25,UG,7.3,89,62,65,54,3,2,1,3,3,23,painting,arts,8,3,Finance Manager
+770,25,PG,7.9,55,95,61,61,2,3,2,3,2,16,"coding, research, music",healthcare,11,4,Finance Manager
+771,17,Grade 12,8.1,82,86,67,55,4,2,3,2,4,21,"dance, writing",business,8,6,IT Specialist
+772,17,Grade 12,8.8,74,67,50,52,5,1,5,4,1,22,"writing, travel",arts,10,8,Software Engineer
+773,18,UG,6.5,77,70,79,69,4,4,2,2,4,22,sports,arts,3,3,MBA
+774,19,UG,9.0,71,78,79,79,2,2,3,3,3,12,"dance, sports, painting",arts,13,8,CA
+775,25,UG,7.9,82,61,59,50,4,1,2,3,4,27,"writing, research, reading",business,8,3,Finance Manager
+776,20,UG,5.0,77,75,77,81,4,1,2,2,2,21,history,business,6,4,Engineering
+777,19,UG,8.6,83,91,79,67,3,3,1,5,2,22,"debate, writing, finance",business,9,9,Software Engineer
+778,15,Grade 10,6.0,71,69,75,80,2,3,2,5,2,22,"debate, music",healthcare,7,9,Defence Persenal
+779,25,UG,6.6,65,85,59,66,2,4,3,3,1,10,"research, painting",technology,10,5,Defence Persenal
+780,13,Grade 10,7.1,85,79,80,67,3,2,1,3,5,16,"research, gaming, history",business,13,4,Lawyer
+781,15,Grade 10,10.0,89,61,78,62,2,2,2,4,2,16,"coding, debate, finance",arts,8,5,Medicine
+782,23,PG,7.8,76,82,76,90,3,2,2,2,1,19,"painting, dance",healthcare,8,10,CA
+783,20,UG,7.2,80,90,62,63,1,1,1,3,3,17,writing,healthcare,5,6,Historian
+784,21,UG,8.8,71,71,53,60,2,4,3,2,4,16,science,technology,5,8,Finance Manager
+785,21,UG,6.9,71,97,84,71,3,1,3,3,3,19,"science, music, debate",technology,9,6,Software Engineer
+786,15,Grade 10,7.7,77,79,61,74,2,2,4,2,3,19,"history, music, science",arts,8,5,Defence Persenal
+787,16,Grade 12,5.8,70,75,58,74,3,2,3,3,2,27,"dance, travel",technology,7,8,Finance Manager
+788,17,Grade 12,7.4,100,60,62,66,2,2,2,2,4,20,"coding, dance, research",business,8,7,Medicine
+789,16,Grade 12,7.4,76,82,56,76,2,3,2,3,3,19,"debate, research",technology,12,8,MBA
+790,18,UG,7.5,70,91,78,54,2,3,1,2,1,28,"finance, coding",arts,14,6,Engineering
+791,16,Grade 12,7.3,76,87,84,72,3,2,3,2,2,20,writing,arts,14,7,Medicine
+792,24,PG,8.2,80,78,64,57,2,1,2,3,1,10,finance,business,14,5,Medicine
+793,21,UG,7.5,77,65,96,84,2,3,2,1,2,21,"painting, reading, writing",arts,7,4,Lawyer
+794,18,UG,8.9,69,79,84,63,3,2,3,2,1,17,"finance, music",business,12,6,Software Engineer
+795,13,Grade 10,7.7,75,100,57,56,2,4,4,4,4,23,"sports, research, music",technology,12,8,MBA
+796,19,UG,7.4,75,68,81,58,2,3,2,1,4,22,"reading, travel",business,14,5,IT Specialist
+797,21,UG,7.9,80,73,79,71,1,4,4,3,2,5,"history, painting, debate",technology,12,7,CA
+798,26,UG,9.1,80,83,82,63,3,3,3,2,4,26,"debate, finance",technology,8,7,Finance Manager
+799,21,UG,8.1,67,69,68,72,5,2,4,3,2,34,painting,technology,6,9,Defence Persenal
+800,17,Grade 12,5.2,75,73,54,70,1,2,2,2,1,14,"coding, science, writing",arts,11,5,CA
+801,20,UG,8.1,90,56,81,56,2,2,2,2,2,7,"science, travel, reading",technology,8,7,Medicine
+802,21,UG,7.9,70,70,60,77,2,4,3,3,1,20,"debate, history",healthcare,13,7,IT Specialist
+803,19,UG,9.8,68,75,76,62,3,1,3,4,4,8,gaming,technology,7,8,MBA
+804,14,Grade 10,6.6,55,72,78,70,2,4,3,3,1,33,"reading, writing, finance",healthcare,11,9,Lawyer
+805,21,UG,7.0,79,86,79,84,1,3,2,3,2,25,reading,healthcare,13,3,Historian
+806,22,UG,7.0,60,78,80,77,2,2,4,3,4,12,"research, painting, history",arts,10,8,Data Scientist
+807,19,UG,8.2,81,64,60,72,3,2,2,2,1,19,"history, writing",arts,10,7,Arts
+808,21,UG,8.3,86,58,87,68,3,2,2,2,2,10,"science, gaming",business,9,6,Arts
+809,25,PG,6.6,84,75,85,76,4,2,3,3,2,18,reading,healthcare,10,5,IT Specialist
+810,23,UG,7.9,73,56,74,65,2,2,3,3,2,12,sports,healthcare,10,5,Finance Manager
+811,30,PG,7.8,89,64,87,72,1,2,5,4,2,25,"coding, gaming",arts,11,6,Engineering
+812,22,UG,6.6,75,67,79,51,1,3,4,4,3,24,"gaming, painting",arts,5,5,CA
+813,15,Grade 10,6.6,68,85,72,72,4,2,2,2,2,34,"research, music",technology,6,9,Arts
+814,16,Grade 12,5.3,88,77,76,75,1,2,4,2,2,28,"dance, science",healthcare,6,6,Historian
+815,21,UG,6.4,57,80,90,58,1,3,2,2,2,16,gaming,technology,14,7,Arts
+816,14,Grade 10,6.5,87,59,66,74,3,2,4,3,1,24,sports,technology,9,7,Arts
+817,16,Grade 12,7.9,70,82,75,76,3,1,3,5,2,12,"travel, debate, research",business,10,4,MBA
+818,21,UG,6.4,82,77,76,97,3,2,4,3,2,26,"painting, debate, writing",arts,7,9,Arts
+819,22,UG,7.8,78,62,76,80,3,4,2,2,2,21,"sports, science, finance",healthcare,13,10,Defence Persenal
+820,21,UG,6.8,77,73,50,81,2,3,3,3,2,15,debate,technology,6,7,Lawyer
+821,17,Grade 12,7.0,51,57,94,64,3,2,1,2,5,20,"travel, painting",technology,6,5,Arts
+822,16,Grade 12,6.5,55,57,61,59,4,3,3,1,2,27,"history, painting",business,5,6,MBA
+823,19,UG,5.0,65,88,50,76,3,3,3,1,3,17,"reading, coding, travel",technology,14,10,Engineering
+824,23,UG,9.6,67,77,67,50,2,2,2,2,2,19,travel,technology,6,5,Arts
+825,17,Grade 12,7.4,76,69,66,71,3,2,3,3,2,24,"coding, painting",technology,7,7,Finance Manager
+826,19,UG,8.7,76,80,55,72,4,1,1,2,2,16,"debate, history",technology,11,6,Arts
+827,16,Grade 12,7.6,78,79,67,72,1,4,2,2,3,19,gaming,healthcare,15,10,Software Engineer
+828,20,UG,8.2,81,81,75,61,1,3,2,1,2,22,"sports, gaming",business,8,7,MBA
+829,18,UG,8.1,75,64,58,62,2,2,2,3,1,15,"finance, writing",healthcare,6,9,Defence Persenal
+830,14,Grade 10,6.0,76,88,80,79,2,2,3,2,3,22,gaming,arts,9,7,Lawyer
+831,28,UG,7.9,76,87,79,65,2,2,1,2,2,19,"reading, science",healthcare,8,6,Defence Persenal
+832,21,UG,9.3,65,77,54,81,2,1,3,2,1,25,"science, history, gaming",technology,11,10,Software Engineer
+833,20,UG,6.3,89,61,84,76,4,2,4,3,2,13,sports,technology,11,6,Lawyer
+834,24,UG,6.0,71,83,70,70,1,3,2,2,3,27,debate,arts,14,6,Data Scientist
+835,16,Grade 12,5.6,92,76,84,67,3,3,2,2,3,19,"coding, travel, debate",healthcare,10,7,Arts
+836,18,UG,7.1,74,80,61,61,3,1,1,5,3,7,"coding, research, science",technology,15,4,Lawyer
+837,13,Grade 10,9.6,83,74,50,85,2,3,3,3,2,18,"debate, gaming, sports",technology,8,6,IT Specialist
+838,21,UG,8.1,70,76,74,84,4,3,3,1,1,25,"travel, science, coding",arts,9,6,Finance Manager
+839,17,Grade 12,8.2,66,64,68,90,2,3,2,1,4,15,"music, coding",business,8,9,Defence Persenal
+840,14,Grade 10,5.1,72,81,64,68,2,2,3,1,3,26,writing,technology,5,8,Engineering
+841,13,Grade 10,6.6,77,64,72,61,2,1,3,2,2,19,writing,healthcare,8,8,Lawyer
+842,23,UG,8.7,63,66,62,86,2,4,1,3,3,31,painting,technology,6,10,Finance Manager
+843,25,PG,7.2,65,76,61,79,3,2,3,3,3,23,"travel, gaming, history",business,11,5,Arts
+844,22,UG,8.4,61,73,67,74,3,3,3,3,2,17,coding,healthcare,4,6,CA
+845,18,UG,8.8,63,85,57,73,3,1,1,4,3,18,debate,technology,4,7,IT Specialist
+846,20,UG,7.4,83,67,82,81,3,2,4,3,4,24,writing,technology,8,7,Historian
+847,28,PG,9.7,61,76,82,50,3,2,4,2,1,24,"writing, history",technology,5,3,Software Engineer
+848,18,UG,6.9,68,78,90,62,3,2,2,4,3,24,"travel, painting, gaming",business,9,6,Data Scientist
+849,18,UG,5.6,82,85,82,59,4,2,1,2,1,14,"coding, gaming, research",arts,11,3,Arts
+850,18,UG,8.3,69,69,70,58,2,3,2,3,2,11,"research, travel",healthcare,11,6,Historian
+851,22,UG,8.8,73,77,63,52,3,3,2,3,3,28,travel,healthcare,12,10,Finance Manager
+852,19,UG,7.3,89,83,65,54,3,2,2,2,3,22,music,arts,3,5,CA
+853,14,Grade 10,6.1,81,82,93,74,1,2,2,2,3,24,"writing, history",arts,10,4,Software Engineer
+854,18,UG,8.9,87,75,90,50,1,2,3,4,1,13,history,business,8,3,Finance Manager
+855,20,UG,7.4,65,79,73,69,2,1,2,3,3,11,"coding, reading, science",business,9,10,Historian
+856,15,Grade 10,7.4,81,79,54,71,2,1,3,2,3,23,"finance, sports, gaming",arts,13,8,IT Specialist
+857,25,PG,8.0,67,53,57,50,2,4,4,3,3,24,research,arts,7,7,Defence Persenal
+858,20,UG,7.2,64,76,53,64,2,2,4,2,4,24,research,technology,8,8,Data Scientist
+859,13,Grade 10,6.6,66,80,66,58,3,4,3,4,1,21,"painting, debate, music",technology,6,7,Data Scientist
+860,18,UG,6.7,64,63,73,78,2,3,3,3,2,22,"finance, reading",technology,13,6,Finance Manager
+861,13,Grade 10,7.0,91,60,58,64,3,2,2,1,2,18,travel,arts,11,6,MBA
+862,21,UG,5.6,82,69,53,81,3,4,4,3,3,21,"dance, gaming",business,11,7,Lawyer
+863,19,UG,5.3,70,66,59,64,1,1,3,1,3,22,research,technology,4,3,IT Specialist
+864,17,Grade 12,7.3,75,69,75,75,1,3,2,2,3,25,history,business,7,3,Software Engineer
+865,21,UG,5.6,78,87,50,76,3,3,3,3,3,14,"painting, finance, writing",technology,15,10,Lawyer
+866,21,UG,10.0,76,65,63,50,4,3,4,3,2,27,"research, reading, finance",business,9,8,Engineering
+867,13,Grade 10,8.3,67,69,72,61,2,3,4,2,2,23,history,arts,9,6,Historian
+868,20,UG,5.8,82,91,84,74,3,1,1,3,1,15,"research, science, music",arts,7,10,Defence Persenal
+869,16,Grade 12,8.6,62,78,84,71,4,3,4,1,3,16,science,business,7,9,IT Specialist
+870,19,UG,7.1,78,75,66,62,1,3,2,1,2,18,"reading, dance",business,8,4,Software Engineer
+871,24,UG,7.7,56,81,62,50,2,2,2,1,3,18,coding,healthcare,10,5,Historian
+872,18,UG,8.4,78,79,61,77,5,1,3,2,3,16,"finance, gaming, debate",arts,14,5,Defence Persenal
+873,20,UG,7.8,84,69,76,64,5,3,3,2,3,17,"travel, history, reading",healthcare,13,9,Finance Manager
+874,18,UG,8.6,69,62,52,74,3,4,3,2,5,20,gaming,healthcare,5,7,Defence Persenal
+875,17,Grade 12,8.4,74,76,54,90,3,2,4,2,2,29,science,healthcare,6,7,CA
+876,18,UG,9.3,58,66,58,76,2,2,4,4,2,23,"finance, science",arts,9,10,CA
+877,16,Grade 12,8.7,71,79,61,78,1,3,1,3,3,17,travel,business,12,7,Arts
+878,29,UG,7.1,83,73,79,50,4,2,2,4,2,17,"painting, sports, travel",healthcare,9,7,Lawyer
+879,21,UG,7.0,64,64,97,67,1,4,2,3,1,16,"research, music",technology,11,8,MBA
+880,23,PG,8.9,85,59,82,79,1,2,3,2,2,20,gaming,business,8,5,Finance Manager
+881,13,Grade 10,7.1,62,92,71,72,3,3,4,2,1,13,"research, music",business,8,7,Medicine
+882,24,UG,5.0,61,77,68,81,1,2,3,3,2,5,"sports, science, coding",business,15,10,Arts
+883,16,Grade 12,8.8,73,76,82,56,2,3,3,2,2,19,sports,arts,16,6,Finance Manager
+884,28,PG,8.7,57,58,68,86,3,2,3,2,3,19,"travel, gaming",technology,6,6,MBA
+885,19,UG,9.1,79,83,73,79,1,4,3,4,3,12,coding,business,4,6,CA
+886,23,PG,5.2,90,80,83,93,4,2,2,3,3,15,"debate, reading",business,10,4,Medicine
+887,19,UG,6.1,88,73,76,66,2,1,2,2,2,25,"history, finance",business,4,4,Data Scientist
+888,16,Grade 12,7.1,85,83,59,66,2,3,2,1,3,10,"debate, gaming, writing",technology,9,3,IT Specialist
+889,23,PG,9.4,61,63,75,77,3,3,3,2,4,20,sports,technology,9,7,Software Engineer
+890,20,UG,8.7,71,71,81,86,3,4,3,1,1,24,"finance, dance, music",healthcare,13,6,IT Specialist
+891,20,UG,7.7,81,80,64,73,2,2,2,3,2,8,"reading, debate",healthcare,10,6,CA
+892,20,UG,5.4,80,85,65,75,1,4,2,4,4,30,research,arts,7,6,Software Engineer
+893,13,Grade 10,9.2,96,52,70,78,2,2,1,4,4,26,"painting, finance",business,13,3,Finance Manager
+894,16,Grade 12,6.8,59,65,69,79,2,3,3,2,3,17,"research, coding, music",technology,15,6,Lawyer
+895,24,UG,6.9,80,74,73,58,4,3,2,1,1,20,"writing, music, painting",arts,13,5,MBA
+896,25,UG,5.7,50,62,71,75,2,4,3,3,2,16,"reading, debate, dance",technology,10,8,Engineering
+897,22,UG,9.8,76,61,79,68,3,2,4,4,3,28,dance,healthcare,8,4,Software Engineer
+898,17,Grade 12,7.0,77,94,59,68,2,4,3,4,3,28,music,business,12,10,Medicine
+899,21,UG,8.5,75,69,95,77,1,2,2,2,3,20,"reading, travel",business,13,7,Software Engineer
+900,14,Grade 10,5.1,79,87,73,71,3,2,2,3,2,20,"gaming, coding, research",business,8,9,Historian
+901,17,Grade 12,10.0,82,65,82,72,1,1,2,2,4,17,gaming,healthcare,6,7,Historian
+902,19,UG,9.3,72,79,92,91,4,2,5,2,5,16,music,business,10,10,Medicine
+903,17,Grade 12,6.6,82,77,79,58,2,1,3,2,3,23,science,healthcare,11,6,Data Scientist
+904,24,UG,5.9,81,72,69,77,4,2,2,3,2,27,science,business,10,7,Historian
+905,17,Grade 12,8.8,72,70,66,76,1,3,2,2,4,7,"writing, gaming, sports",healthcare,10,4,IT Specialist
+906,16,Grade 12,7.9,70,58,75,50,3,3,4,4,2,20,coding,healthcare,7,4,Defence Persenal
+907,19,UG,7.3,76,78,65,50,3,1,4,4,3,26,"coding, writing, debate",healthcare,9,7,Finance Manager
+908,15,Grade 10,7.1,73,73,71,66,2,4,1,3,2,21,finance,technology,5,7,Data Scientist
+909,17,Grade 12,6.9,83,82,68,56,4,3,2,1,3,23,history,technology,6,7,Medicine
+910,18,UG,8.0,64,88,64,94,3,3,3,3,3,17,"gaming, writing",arts,13,10,Arts
+911,20,UG,6.2,88,82,61,53,2,1,2,1,2,21,"finance, history",healthcare,6,7,Finance Manager
+912,29,PG,9.0,84,77,76,76,3,3,3,3,1,13,"painting, travel",healthcare,8,9,Arts
+913,22,UG,6.6,68,59,56,92,1,3,3,1,2,11,"history, science",healthcare,7,6,MBA
+914,20,UG,8.3,83,86,71,73,2,1,3,3,4,26,finance,technology,11,6,Data Scientist
+915,22,UG,5.7,78,73,54,68,4,2,2,3,2,23,debate,business,7,5,IT Specialist
+916,23,PG,6.8,79,71,64,75,2,3,4,4,2,24,"reading, sports, painting",arts,10,7,Medicine
+917,26,UG,9.7,71,80,64,73,3,1,2,2,2,22,music,technology,10,5,IT Specialist
+918,16,Grade 12,8.6,82,79,74,63,1,4,3,2,3,20,"writing, history",arts,13,5,Medicine
+919,19,UG,8.9,89,77,69,76,3,3,2,3,1,17,"research, coding",healthcare,9,7,Finance Manager
+920,26,PG,9.4,74,81,63,98,2,2,2,4,3,17,painting,arts,9,5,Defence Persenal
+921,22,UG,7.8,68,81,91,56,4,3,2,3,2,16,travel,healthcare,11,9,Defence Persenal
+922,17,Grade 12,7.2,60,66,66,74,2,2,1,1,2,22,"history, music, sports",technology,10,6,Lawyer
+923,20,UG,9.2,87,65,67,77,3,3,2,3,3,23,"research, history, reading",healthcare,8,8,Arts
+924,18,UG,6.9,63,72,53,55,2,1,2,3,3,29,"history, research, travel",healthcare,11,9,Arts
+925,16,Grade 12,9.1,82,79,61,79,1,2,4,3,2,24,dance,business,6,5,Historian
+926,24,PG,5.4,73,59,74,85,2,2,4,4,1,12,"dance, painting, coding",healthcare,11,3,Arts
+927,26,PG,8.7,89,74,84,83,3,3,3,3,3,26,"dance, painting",arts,12,9,Engineering
+928,26,UG,7.5,92,56,66,85,4,1,1,4,4,27,"travel, science",technology,7,5,Arts
+929,25,UG,7.9,66,76,66,78,3,2,4,2,2,23,"history, travel",healthcare,3,9,CA
+930,29,UG,7.8,82,76,64,55,2,2,3,3,3,19,"debate, coding, dance",technology,8,6,CA
+931,16,Grade 12,8.2,84,80,60,100,4,2,2,2,3,21,"reading, sports, science",business,11,8,Engineering
+932,28,PG,8.2,80,78,76,83,2,3,2,1,3,12,"painting, sports, gaming",arts,10,4,MBA
+933,24,UG,8.2,77,83,81,84,2,3,1,3,2,21,"debate, history",healthcare,11,7,CA
+934,19,UG,6.9,66,81,83,90,3,1,3,2,2,21,"gaming, research",technology,10,4,Finance Manager
+935,14,Grade 10,6.5,84,75,57,72,3,1,3,4,2,19,sports,technology,13,6,MBA
+936,20,UG,6.9,59,61,83,59,2,3,3,3,3,18,"science, debate",arts,9,7,Software Engineer
+937,16,Grade 12,9.3,69,84,68,59,1,3,4,2,3,14,"painting, gaming, finance",technology,6,5,Software Engineer
+938,20,UG,8.4,71,90,75,71,2,3,3,3,4,15,science,healthcare,7,8,IT Specialist
+939,18,UG,9.5,60,80,85,70,3,4,2,2,2,14,"debate, science, travel",technology,11,6,Lawyer
+940,27,PG,5.4,92,75,70,80,3,3,3,4,2,22,sports,technology,13,7,CA
+941,19,UG,6.8,88,79,59,84,2,2,3,2,3,16,history,technology,13,5,Data Scientist
+942,19,UG,5.0,78,68,78,54,3,4,2,3,2,34,"painting, writing, debate",technology,11,5,Historian
+943,21,UG,10.0,64,77,60,81,1,1,2,3,2,25,"music, finance, debate",technology,8,4,Historian
+944,26,PG,8.5,82,68,50,78,3,3,4,1,5,14,"coding, music, painting",healthcare,15,6,Finance Manager
+945,18,UG,5.5,56,70,79,63,2,2,1,3,2,24,"science, history",arts,10,5,Lawyer
+946,13,Grade 10,6.8,80,94,56,50,3,3,2,1,4,12,"dance, history, science",healthcare,12,6,Medicine
+947,14,Grade 10,7.1,77,74,61,60,3,5,3,3,3,21,"research, science",arts,9,6,CA
+948,19,UG,6.7,79,55,71,73,3,4,2,3,2,25,music,arts,5,9,Defence Persenal
+949,16,Grade 12,6.7,71,71,58,94,3,2,2,5,2,17,"music, history",arts,7,7,CA
+950,21,UG,7.3,69,81,91,63,2,1,4,2,1,26,"writing, music",healthcare,9,6,Arts
+951,19,UG,6.8,71,77,90,76,2,2,1,1,1,16,"gaming, reading",business,11,6,Defence Persenal
+952,24,UG,7.4,92,74,70,79,2,3,3,2,3,15,"finance, gaming",technology,6,7,MBA
+953,23,UG,10.0,95,67,69,73,2,2,4,1,2,10,painting,technology,8,6,Data Scientist
+954,15,Grade 10,9.0,80,80,64,53,1,3,3,4,4,29,"debate, research, writing",business,9,9,Finance Manager
+955,17,Grade 12,7.8,84,86,86,61,3,2,3,1,4,27,"travel, gaming",technology,14,6,MBA
+956,16,Grade 12,7.4,65,86,74,50,1,3,4,1,2,16,"painting, coding, finance",business,7,8,MBA
+957,24,PG,6.8,79,78,64,81,2,4,2,1,4,20,"dance, travel",healthcare,7,6,Data Scientist
+958,14,Grade 10,8.1,74,81,73,59,2,2,2,1,2,32,finance,business,5,9,Defence Persenal
+959,16,Grade 12,7.7,68,53,59,78,2,2,3,2,4,21,"history, science, reading",arts,9,4,MBA
+960,18,UG,5.6,57,81,76,64,3,4,2,1,1,27,"gaming, writing, debate",healthcare,5,4,IT Specialist
+961,18,UG,5.4,77,69,65,74,2,4,1,2,3,13,"debate, dance, sports",arts,11,9,Arts
+962,24,PG,9.4,78,65,86,84,3,2,2,1,3,23,"dance, finance, sports",arts,19,7,IT Specialist
+963,18,UG,5.8,68,69,87,56,3,1,2,3,2,16,"history, travel, reading",technology,10,6,Lawyer
+964,26,UG,9.2,75,71,72,66,3,3,2,3,1,14,"debate, gaming, coding",technology,10,7,Data Scientist
+965,24,PG,6.5,76,80,71,55,3,2,4,4,4,31,reading,technology,12,5,Arts
+966,20,UG,5.0,66,78,97,60,3,4,2,2,3,19,painting,arts,16,4,MBA
+967,18,UG,9.0,79,87,76,76,3,5,2,2,3,11,coding,business,12,5,Engineering
+968,25,PG,5.9,78,64,50,57,1,2,3,1,3,24,"research, sports",arts,7,7,MBA
+969,19,UG,6.7,74,84,58,76,4,4,4,3,2,7,painting,technology,11,6,Historian
+970,15,Grade 10,7.5,60,70,66,71,3,2,3,3,4,13,"debate, coding, science",business,14,6,Engineering
+971,15,Grade 10,6.7,58,92,77,61,1,3,4,2,3,23,"science, travel",business,5,6,CA
+972,19,UG,6.0,75,86,83,60,2,1,1,3,1,25,"travel, gaming",business,8,7,Lawyer
+973,20,UG,6.8,71,70,56,68,2,3,3,4,2,29,"science, sports",healthcare,14,8,Engineering
+974,16,Grade 12,6.9,87,63,78,80,1,2,1,1,4,18,writing,healthcare,11,7,Historian
+975,17,Grade 12,8.2,75,78,85,78,3,4,5,4,5,19,"travel, research, coding",healthcare,8,8,CA
+976,21,UG,8.4,85,66,76,76,3,1,2,3,2,29,"reading, finance",business,11,6,Software Engineer
+977,18,UG,9.3,81,68,61,53,3,3,1,2,2,21,"travel, sports",business,8,8,Lawyer
+978,17,Grade 12,5.5,78,56,76,84,3,2,2,3,2,23,"research, gaming",arts,11,8,Defence Persenal
+979,22,UG,7.8,74,82,81,77,3,2,1,3,3,28,"science, research, reading",technology,12,6,Defence Persenal
+980,22,UG,7.6,72,69,75,77,4,4,3,3,3,25,"reading, finance",technology,9,6,Medicine
+981,22,UG,7.0,83,74,71,50,5,2,4,2,2,25,reading,technology,15,4,Engineering
+982,26,UG,6.8,78,67,83,55,1,2,3,4,5,21,debate,business,11,6,Arts
+983,13,Grade 10,8.1,79,72,64,66,3,3,2,1,2,18,"sports, research",business,18,8,Medicine
+984,16,Grade 12,8.4,62,92,72,78,2,3,2,4,3,21,coding,healthcare,11,10,MBA
+985,22,UG,7.2,79,63,60,50,4,3,2,3,2,25,gaming,business,12,8,IT Specialist
+986,28,UG,8.0,92,74,57,70,4,3,2,3,4,22,"finance, sports",technology,13,4,MBA
+987,13,Grade 10,8.4,55,78,62,62,2,3,2,4,3,21,"music, travel, painting",healthcare,9,5,Finance Manager
+988,21,UG,8.7,85,78,55,71,2,2,1,2,3,25,"reading, research",business,8,3,Lawyer
+989,13,Grade 10,5.7,86,84,50,77,1,3,4,2,1,15,travel,healthcare,8,8,Medicine
+990,13,Grade 10,8.4,86,77,56,55,5,4,2,3,5,10,finance,business,13,3,Historian
+991,19,UG,8.3,81,89,63,59,4,2,2,4,4,19,coding,technology,6,7,Data Scientist
+992,21,UG,8.2,75,74,67,88,2,1,5,3,2,6,"writing, reading, sports",arts,10,7,Historian
+993,14,Grade 10,8.3,89,78,63,78,1,3,3,2,3,20,reading,business,15,5,Medicine
+994,17,Grade 12,8.3,82,67,66,67,2,4,3,3,2,18,"painting, travel, finance",healthcare,10,8,Software Engineer
+995,21,UG,5.0,87,83,64,53,3,3,1,2,3,16,debate,arts,9,6,Software Engineer
+996,17,Grade 12,7.5,89,59,78,61,2,2,4,1,1,23,debate,healthcare,10,5,Defence Persenal
+997,18,UG,7.5,76,75,72,50,3,2,1,2,2,19,finance,business,9,5,Software Engineer
+998,15,Grade 10,7.9,72,67,71,59,1,2,2,4,2,7,"sports, dance, writing",healthcare,12,8,Defence Persenal
+999,15,Grade 10,8.3,81,81,50,74,3,3,4,3,2,15,coding,arts,3,6,Historian
+1000,14,Grade 10,6.5,67,81,80,80,1,1,2,2,2,15,"gaming, research",arts,3,3,Data Scientist

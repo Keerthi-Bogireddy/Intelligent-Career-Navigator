@@ -5,11 +5,12 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, confusion_matrix, classification_report
 import matplotlib.pyplot as plt
 import seaborn as sns
+import joblib
 from preprocess import preprocess_data
 
 # Load and preprocess data
 file_path = r"C:\Users\Akshitha Kotte\Desktop\mini-project-new\Intelligent-Career-Navigator\data\icn_dataset.csv"
-X, y, career_classes = preprocess_data(file_path)
+X, y, career_classes, scaler = preprocess_data(file_path)
 
 # Split the data
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42, stratify=y)
@@ -69,8 +70,11 @@ feature_importance = feature_importance.sort_values('importance', ascending=Fals
 print("\nFeature Importance:")
 print(feature_importance)
 
-# Save the model (optional)
-import joblib
+# Save the model and preprocessing objects
 joblib.dump(best_model, 'best_model.pkl')
+joblib.dump(scaler, 'scaler.pkl')  # Save the scaler
+joblib.dump(joblib.load('label_encoder_edu.pkl'), 'label_encoder_edu.pkl')  # Save the label encoder for education
+joblib.dump(joblib.load('label_encoder_interests.pkl'), 'label_encoder_interests.pkl')  # Save the label encoder for interests
+joblib.dump(joblib.load('label_encoder_career.pkl'), 'label_encoder_career.pkl')  # Save the label encoder for career
 
 print("\nModel saved as 'best_model.pkl'")
