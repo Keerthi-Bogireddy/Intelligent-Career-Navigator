@@ -8,7 +8,7 @@ import seaborn as sns
 from preprocess import preprocess_data
 
 # Load and preprocess data
-file_path = r"C:\Users\Akshitha Kotte\Desktop\mini-project-new\Intelligent-Career-Navigator\data\dataset.csv"
+file_path = r"C:\Users\Akshitha Kotte\Desktop\mini-project-new\Intelligent-Career-Navigator\data\icn_dataset.csv"
 X, y, career_classes = preprocess_data(file_path)
 
 # Split the data

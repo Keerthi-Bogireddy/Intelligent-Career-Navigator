@@ -60,7 +60,7 @@ def preprocess_data(file_path, output_path="processed_dataset.csv"):
     return X, y, le.classes_
 
 if __name__ == "__main__":
-    file_path = r"C:\Users\Akshitha Kotte\Desktop\mini-project-new\Intelligent-Career-Navigator\data\dataset.csv"
+    file_path = r"C:\Users\Akshitha Kotte\Desktop\mini-project-new\Intelligent-Career-Navigator\data\icn_dataset.csv"
     try:
         X, y, career_classes = preprocess_data(file_path)
         print("\nSample X (first 5 rows):")
