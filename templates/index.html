@@ -6,15 +6,26 @@
     <title>Studies Recommendation</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="/static/styles.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        .bg-image {
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+            transition: background-image 1s ease-in-out;
+        }
+    </style>
 </head>
 <body>
     <div class="bg-image" id="bgImage">
-        <div class="mynav shadow-sm" style="background:transparent; color:white;text:bold; padding:10px;width:100%;">
+        <div class="mynav shadow-sm" style="background:transparent; color:white; text:bold; padding:10px; width:100%;">
             <h1 class="text-center" style="color: black; background-color: lightgray; padding: 10px; border-radius: 8px;">
                 Intelligent Career Navigator: AI-Driven Educational Pathway Optimization Platform
-            </h1>            
+            </h1>
         </div>
-
         <div class="container mt-5">
             <h1>Welcome to our Best Studies Recommendation System</h1>
             <p>This recommendation system aims to assist university students in selecting the most suitable studies and courses based on their academic performance, interests, and career aspirations.</p>
@@ -24,16 +35,18 @@
     </div>
 
     <script>
-        const images = ["/data/img.png", "/data/img_1.png", "/data/img_2.png"]; // Update image paths
+        const images = ["/data/img.png", "/data/img_1.png", "/data/img_2.png"];
         let currentIndex = 0;
 
         function changeBackground() {
-            document.getElementById('bgImage').style.backgroundImage = `url('${images[currentIndex]}')`;
+            const bgImage = document.getElementById('bgImage');
+            bgImage.style.backgroundImage = `url('${images[currentIndex]}')`;
             currentIndex = (currentIndex + 1) % images.length;
-            setTimeout(changeBackground, 4000); // Change every 2 seconds
         }
 
+        // Initial background setup
         changeBackground();
+        setInterval(changeBackground, 2000);
     </script>
 </body>
 </html>
