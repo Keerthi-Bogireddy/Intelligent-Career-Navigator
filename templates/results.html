@@ -3,18 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Career Prediction Result</title>
-    <style>
-        body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; text-align: center; }
-        h1 { color: #4CAF50; }
-        p { font-size: 18px; }
-        a { color: #45a049; text-decoration: none; }
-        a:hover { text-decoration: underline; }
-    </style>
+    <title>Recommendation Result</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/styles.css">
 </head>
 <body>
-    <h1>Career Prediction Result</h1>
-    <p>Your predicted career aspiration is: <strong>{{ career }}</strong></p>
-    <p><a href="/">Go Back to Predict Again</a></p>
+<div class="mynav shadow-sm" style="background:black; color:white; padding:10px; width:100%;">
+    <h1 class="text-center">Career Recommendation Result</h1>
+</div>
+<div class="container mt-5">
+    <div class="card">
+        <div class="card-body text-center">
+            <h3 class="card-title">Your Recommended Career Path</h3>
+            <p class="card-text">
+                Based on the data you provided, our system recommends the following career:
+            </p>
+            <h2 class="display-4 text-primary">{{ career }}</h2>
+            <p class="mt-4">
+                <a href="/templates/index.html" class="btn btn-secondary">Go Back to Home</a>
+                <a href="/templates/predictor.html" class="btn btn-primary">Try Again</a>
+            </p>
+        </div>
+    </div>
+</div>
 </body>
 </html>

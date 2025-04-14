@@ -3,117 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Career Aspiration Predictor</title>
-    <style>
-        body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
-        .form-group { margin-bottom: 15px; }
-        label { display: block; margin-bottom: 5px; }
-        input, select { width: 100%; padding: 8px; box-sizing: border-box; }
-        button { background-color: #4CAF50; color: white; padding: 10px 15px; border: none; cursor: pointer; }
-        button:hover { background-color: #45a049; }
-    </style>
+    <title>Studies Recommendation</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/styles.css">
 </head>
 <body>
-    <h1>Career Aspiration Predictor</h1>
-    <form action="/predict" method="POST">
-        <div class="form-group">
-            <label for="age">Age:</label>
-            <input type="number" id="age" name="age" min="13" max="30" required>
+    <div class="bg-image" id="bgImage">
+        <div class="mynav shadow-sm" style="background:transparent; color:white;text:bold; padding:10px;width:100%;">
+            <h1 class="text-center">Education Recommendation System</h1>
         </div>
-        <div class="form-group">
-            <label for="education_level">Education Level:</label>
-            <select id="education_level" name="education_level" required>
-                <option value="Grade 10">Grade 10</option>
-                <option value="Grade 12">Grade 12</option>
-                <option value="UG">UG</option>
-                <option value="PG">PG</option>
-            </select>
+
+        <div class="container mt-5">
+            <h1>Welcome to our Best Studies Recommendation System</h1>
+            <p>This recommendation system aims to assist university students in selecting the most suitable studies and courses based on their academic performance, interests, and career aspirations.</p>
+            <p>Click the button below to get recommendations:</p>
+            <a href="/templates/predictor.html" class="btn btn-primary">Get Recommendations</a>
         </div>
-        <div class="form-group">
-            <label for="cgpa">CGPA (0-10):</label>
-            <input type="number" id="cgpa" name="cgpa" step="0.1" min="0" max="10" required>
-        </div>
-        <div class="form-group">
-            <label for="math_score">Math Score (0-100):</label>
-            <input type="number" id="math_score" name="math_score" min="0" max="100" required>
-        </div>
-        <div class="form-group">
-            <label for="physics_score">Physics Score (0-100):</label>
-            <input type="number" id="physics_score" name="physics_score" min="0" max="100" required>
-        </div>
-        <div class="form-group">
-            <label for="biology_score">Biology Score (0-100):</label>
-            <input type="number" id="biology_score" name="biology_score" min="0" max="100" required>
-        </div>
-        <div class="form-group">
-            <label for="history_score">History Score (0-100):</label>
-            <input type="number" id="history_score" name="history_score" min="0" max="100" required>
-        </div>
-        <div class="form-group">
-            <label for="openness">Openness (1-5):</label>
-            <input type="number" id="openness" name="openness" min="1" max="5" required>
-        </div>
-        <div class="form-group">
-            <label for="conscientiousness">Conscientiousness (1-5):</label>
-            <input type="number" id="conscientiousness" name="conscientiousness" min="1" max="5" required>
-        </div>
-        <div class="form-group">
-            <label for="extraversion">Extraversion (1-5):</label>
-            <input type="number" id="extraversion" name="extraversion" min="1" max="5" required>
-        </div>
-        <div class="form-group">
-            <label for="agreeableness">Agreeableness (1-5):</label>
-            <input type="number" id="agreeableness" name="agreeableness" min="1" max="5" required>
-        </div>
-        <div class="form-group">
-            <label for="neuroticism">Neuroticism (1-5):</label>
-            <input type="number" id="neuroticism" name="neuroticism" min="1" max="5" required>
-        </div>
-        <div class="form-group">
-            <label for="weekly_self_study_hours">Weekly Self-Study Hours:</label>
-            <input type="number" id="weekly_self_study_hours" name="weekly_self_study_hours" min="0" max="40" required>
-        </div>
-        <div class="form-group">
-            <label for="extracurricular_activities">Extracurricular Activities (0 = No, 1 = Yes):</label>
-            <select id="extracurricular_activities" name="extracurricular_activities" required>
-                <option value="0">No</option>
-                <option value="1">Yes</option>
-            </select>
-        </div>
-        <div class="form-group">
-            <label for="interests">Interests:</label>
-            <select id="interests" name="interests" required>
-                <option value="arts">Arts</option>
-                <option value="business">Business</option>
-                <option value="healthcare">Healthcare</option>
-                <option value="technology">Technology</option>
-            </select>
-        </div>
-        <div class="form-group">
-            <label for="budget">Budget (1-20):</label>
-            <input type="number" id="budget" name="budget" min="1" max="20" required>
-        </div>
-        <div class="form-group">
-            <label for="career_demand_score">Career Demand Score (1-10):</label>
-            <input type="number" id="career_demand_score" name="career_demand_score" min="1" max="10" required>
-        </div>
-        <div class="form-group">
-            <label>Hobbies (Select all that apply):</label>
-            <input type="checkbox" name="hobbies" value="coding"> Coding
-            <input type="checkbox" name="hobbies" value="dance"> Dance
-            <input type="checkbox" name="hobbies" value="finance"> Finance
-            <input type="checkbox" name="hobbies" value="gaming"> Gaming
-            <input type="checkbox" name="hobbies" value="history"> History
-            <input type="checkbox" name="hobbies" value="music"> Music
-            <input type="checkbox" name="hobbies" value="painting"> Painting
-            <input type="checkbox" name="hobbies" value="reading"> Reading
-            <input type="checkbox" name="hobbies" value="research"> Research
-            <input type="checkbox" name="hobbies" value="science"> Science
-            <input type="checkbox" name="hobbies" value="sports"> Sports
-            <input type="checkbox" name="hobbies" value="travel"> Travel
-            <input type="checkbox" name="hobbies" value="writing"> Writing
-        </div>
-        <button type="submit">Predict Career</button>
-    </form>
+    </div>
+
+    <script>
+        const images = ["/data/img.png", "/data/img_1.png", "/data/img_2.png"]; // Update image paths
+        let currentIndex = 0;
+
+        function changeBackground() {
+            document.getElementById('bgImage').style.backgroundImage = `url('${images[currentIndex]}')`;
+            currentIndex = (currentIndex + 1) % images.length;
+            setTimeout(changeBackground, 4000); // Change every 2 seconds
+        }
+
+        changeBackground();
+    </script>
 </body>
 </html>

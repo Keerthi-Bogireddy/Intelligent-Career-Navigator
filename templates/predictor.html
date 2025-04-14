@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education Recommendation</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: Arial, sans-serif;
+        }
+        .mynav {
+            background: linear-gradient(to right, #000046, #1cb5e0);
+            color: white;
+            padding: 10px;
+        }
+        .form-section {
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            background: #ffffff;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            position: relative;
+            background-size: cover;
+            background-position: center;
+            color: #333;
+        }
+        .section-title {
+            background-color: rgba(28, 181, 224, 0.9);
+            color: white;
+            padding: 10px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+        button[type="submit"] {
+            background: #1cb5e0;
+            border: none;
+        }
+        button[type="submit"]:hover {
+            background: #000046;
+        }
+        .form-section.personal-details {
+            background-image: url('/data/personal-info.jpg');
+        }
+        .form-section.academic-scores {
+            background-image: url('/data/academic-scores.jpg');
+        }
+        .form-section.personality-traits {
+            background-image: url('/data/personality-traits.jpg');
+        }
+        .form-section.hobbies-interests {
+            background-image: url('/data/hobbies-and-interests.jpg');
+        }
+    </style>
+</head>
+<body>
+<div class="mynav text-center">
+    <h1>Education Recommendation System</h1>
+</div>
+<div class="container mt-4">
+    <h2 class="text-center">Fill in the details to get recommendations</h2>
+    <form method="post" action="/templates/results.html">
+        <!-- Personal Details -->
+        <div class="form-section personal-details">
+            <div class="section-title">Personal Details</div>
+            <div class="form-group">
+                <label for="age">Age:</label>
+                <input type="number" class="form-control" id="age" name="age" required>
+            </div>
+            <div class="form-group">
+                <label for="education_level">Education Level:</label>
+                <select class="form-control" id="education_level" name="education_level" required>
+                    <option value="Grade 10">Grade 10</option>
+                    <option value="Grade 12">Grade 12</option>
+                    <option value="UG">UG</option>
+                    <option value="PG">PG</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- Academic Scores -->
+        <div class="form-section academic-scores">
+            <div class="section-title">Academic Scores</div>
+            <div class="form-group">
+                <label for="cgpa">CGPA:</label>
+                <input type="number" step="0.01" class="form-control" id="cgpa" name="cgpa" required>
+            </div>
+            <div class="form-group">
+                <label for="math_score">Math Score:</label>
+                <input type="number" class="form-control" id="math_score" name="math_score" required>
+            </div>
+            <div class="form-group">
+                <label for="physics_score">Physics Score:</label>
+                <input type="number" class="form-control" id="physics_score" name="physics_score" required>
+            </div>
+            <div class="form-group">
+                <label for="biology_score">Biology Score:</label>
+                <input type="number" class="form-control" id="biology_score" name="biology_score" required>
+            </div>
+            <div class="form-group">
+                <label for="history_score">History Score:</label>
+                <input type="number" class="form-control" id="history_score" name="history_score" required>
+            </div>
+        </div>
+
+        <!-- Personality Traits -->
+        <div class="form-section personality-traits">
+            <div class="section-title">Personality Traits</div>
+            <div class="form-group">
+                <label for="openness">Openness (0-1):</label>
+                <input type="number" step="0.01" class="form-control" id="openness" name="openness" required>
+            </div>
+            <div class="form-group">
+                <label for="conscientiousness">Conscientiousness (0-1):</label>
+                <input type="number" step="0.01" class="form-control" id="conscientiousness" name="conscientiousness" required>
+            </div>
+            <div class="form-group">
+                <label for="extraversion">Extraversion (0-1):</label>
+                <input type="number" step="0.01" class="form-control" id="extraversion" name="extraversion" required>
+            </div>
+            <div class="form-group">
+                <label for="agreeableness">Agreeableness (0-1):</label>
+                <input type="number" step="0.01" class="form-control" id="agreeableness" name="agreeableness" required>
+            </div>
+            <div class="form-group">
+                <label for="neuroticism">Neuroticism (0-1):</label>
+                <input type="number" step="0.01" class="form-control" id="neuroticism" name="neuroticism" required>
+            </div>
+        </div>
+
+        <!-- Hobbies and Interests -->
+        <div class="form-section hobbies-interests">
+            <div class="section-title">Hobbies and Interests</div>
+            <div class="form-group">
+                <label for="interests">Interests:</label>
+                <select class="form-control" id="interests" name="interests" required>
+                    <option value="arts">Arts</option>
+                    <option value="business">Business</option>
+                    <option value="healthcare">Healthcare</option>
+                    <option value="technology">Technology</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Hobbies:</label><br>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" name="hobbies" value="coding"> Coding<br>
+                    <input type="checkbox" class="form-check-input" name="hobbies" value="cooking"> Cooking<br>
+                    <input type="checkbox" class="form-check-input" name="hobbies" value="dance"> Dance<br>
+                    <input type="checkbox" class="form-check-input" name="hobbies" value="finance"> Finance<br>
+                    <input type="checkbox" class="form-check-input" name="hobbies" value="gaming"> Gaming<br>
+                    <input type="checkbox" class="form-check-input" name="hobbies" value="history"> History<br>
+                    <input type="checkbox" class="form-check-input" name="hobbies" value="music"> Music<br>
+                    <input type="checkbox" class="form-check-input" name="hobbies" value="painting"> Painting<br>
+                    <input type="checkbox" class="form-check-input" name="hobbies" value="reading"> Reading<br>
+                    <input type="checkbox" class="form-check-input" name="hobbies" value="research"> Research<br>
+                    <input type="checkbox" class="form-check-input" name="hobbies" value="science"> Science<br>
+                    <input type="checkbox" class="form-check-input" name="hobbies" value="sports"> Sports<br>
+                    <input type="checkbox" class="form-check-input" name="hobbies" value="travel"> Travel<br>
+                    <input type="checkbox" class="form-check-input" name="hobbies" value="writing"> Writing<br>
+                </div>
+            </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-block">Submit</button>
+    </form>
+</div>
+</body>
+</html>
