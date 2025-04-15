@@ -2,137 +2,142 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Career Recommendation Predictor</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Predictor</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
 </head>
 <body>
-    <div class="mynav text-center p-3 mb-4 bg-primary text-white">
-        <h2>Career Recommendation Predictor</h2>
-    </div>
-    <div class="container">
-        <form method="post" action="/predict">
-            <!-- Personal Details -->
-            <div class="form-section personal-details mb-4 p-3 border rounded">
-                <h4>Personal Details</h4>
-                <div class="form-group">
-                    <label for="age">Age:</label>
-                    <input type="number" class="form-control" id="age" name="age" required>
-                </div>
-                <div class="form-group">
-                    <label for="education_level">Education Level:</label>
-                    <select class="form-control" id="education_level" name="education_level" required>
-                        <option value="Grade 10">Grade 10</option>
-                        <option value="Grade 12">Grade 12</option>
-                        <option value="UG">UG</option>
-                        <option value="PG">PG</option>
-                    </select>
-                </div>
+    <div class="container mt-5">
+        <h1 class="text-center">Career Predictor</h1>
+        <form method="POST" action="/predict">
+            <!-- Personal Information -->
+            <h3>Personal Information</h3>
+            <div class="form-group">
+                <label>Age</label>
+                <input type="number" name="age" class="form-control" placeholder="Enter your age" required>
+            </div>
+            <div class="form-group">
+                <label>Education Level</label>
+                <select name="education_level" class="form-control" required>
+                    <option value="">Select Education Level</option>
+                    <option>Grade 10</option>
+                    <option>Grade 12</option>
+                    <option>UG</option>
+                    <option>PG</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Budget (in USD)</label>
+                <input type="number" name="budget" class="form-control" placeholder="Enter your education budget" required>
             </div>
 
-            <!-- Academic Scores -->
-            <div class="form-section academic-scores mb-4 p-3 border rounded">
-                <h4>Academic Scores</h4>
-                <div class="form-group">
-                    <label for="cgpa">CGPA:</label>
-                    <input type="number" step="0.01" class="form-control" id="cgpa" name="cgpa" required>
+            <!-- Academic Performance -->
+            <h3>Academic Performance</h3>
+            <div class="form-group">
+                <label>CGPA</label>
+                <input type="number" step="0.01" name="cgpa" class="form-control" placeholder="Enter your CGPA" required>
+            </div>
+            <div class="form-group">
+                <label>Math Score</label>
+                <input type="number" name="math_score" class="form-control" placeholder="Enter your math score" required>
+            </div>
+            <div class="form-group">
+                <label>Physics Score</label>
+                <input type="number" name="physics_score" class="form-control" placeholder="Enter your physics score" required>
+            </div>
+            <div class="form-group">
+                <label>Biology Score</label>
+                <input type="number" name="biology_score" class="form-control" placeholder="Enter your biology score" required>
+            </div>
+            <div class="form-group">
+                <label>History Score</label>
+                <input type="number" name="history_score" class="form-control" placeholder="Enter your history score" required>
+            </div>
+            <div class="form-group">
+                <label>Weekly Self-Study Hours</label>
+                <input type="number" name="weekly_self_study_hours" class="form-control" placeholder="Enter hours spent on self-study per week" required>
+            </div>
+            <div class="form-group">
+                <label>Career Demand Score (1-10)</label>
+                <input type="number" name="career_demand_score" class="form-control" min="1" max="10" placeholder="Rate demand for your preferred career" required>
+            </div>
+
+            <!-- Hobbies -->
+            <h3>Hobbies</h3>
+            <div class="form-group">
+                <label>Select your hobbies:</label><br>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" name="hobbies" value="coding">
+                    <label class="form-check-label">Coding</label>
                 </div>
-                <div class="form-group">
-                    <label for="math_score">Math Score:</label>
-                    <input type="number" class="form-control" id="math_score" name="math_score" required>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" name="hobbies" value="cooking">
+                    <label class="form-check-label">Cooking</label>
                 </div>
-                <div class="form-group">
-                    <label for="physics_score">Physics Score:</label>
-                    <input type="number" class="form-control" id="physics_score" name="physics_score" required>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" name="hobbies" value="dance">
+                    <label class="form-check-label">Dance</label>
                 </div>
-                <div class="form-group">
-                    <label for="biology_score">Biology Score:</label>
-                    <input type="number" class="form-control" id="biology_score" name="biology_score" required>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" name="hobbies" value="finance">
+                    <label class="form-check-label">Finance</label>
                 </div>
-                <div class="form-group">
-                    <label for="history_score">History Score:</label>
-                    <input type="number" class="form-control" id="history_score" name="history_score" required>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" name="hobbies" value="gaming">
+                    <label class="form-check-label">Gaming</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" name="hobbies" value="music">
+                    <label class="form-check-label">Music</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" name="hobbies" value="painting">
+                    <label class="form-check-label">Painting</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" name="hobbies" value="reading">
+                    <label class="form-check-label">Reading</label>
                 </div>
             </div>
 
             <!-- Personality Traits -->
-            <div class="form-section personality-traits mb-4 p-3 border rounded">
-                <h4>Personality Traits (0 to 1)</h4>
-                <div class="form-group">
-                    <label for="openness">Openness:</label>
-                    <input type="number" step="0.01" class="form-control" id="openness" name="openness" required>
-                </div>
-                <div class="form-group">
-                    <label for="conscientiousness">Conscientiousness:</label>
-                    <input type="number" step="0.01" class="form-control" id="conscientiousness" name="conscientiousness" required>
-                </div>
-                <div class="form-group">
-                    <label for="extraversion">Extraversion:</label>
-                    <input type="number" step="0.01" class="form-control" id="extraversion" name="extraversion" required>
-                </div>
-                <div class="form-group">
-                    <label for="agreeableness">Agreeableness:</label>
-                    <input type="number" step="0.01" class="form-control" id="agreeableness" name="agreeableness" required>
-                </div>
-                <div class="form-group">
-                    <label for="neuroticism">Neuroticism:</label>
-                    <input type="number" step="0.01" class="form-control" id="neuroticism" name="neuroticism" required>
-                </div>
+            <h3>Personality Traits</h3>
+            <div class="form-group">
+                <label>Openness (1-10)</label>
+                <input type="number" name="openness" class="form-control" min="1" max="10" placeholder="Rate openness" required>
+            </div>
+            <div class="form-group">
+                <label>Conscientiousness (1-10)</label>
+                <input type="number" name="conscientiousness" class="form-control" min="1" max="10" placeholder="Rate conscientiousness" required>
+            </div>
+            <div class="form-group">
+                <label>Extraversion (1-10)</label>
+                <input type="number" name="extraversion" class="form-control" min="1" max="10" placeholder="Rate extraversion" required>
+            </div>
+            <div class="form-group">
+                <label>Agreeableness (1-10)</label>
+                <input type="number" name="agreeableness" class="form-control" min="1" max="10" placeholder="Rate agreeableness" required>
+            </div>
+            <div class="form-group">
+                <label>Neuroticism (1-10)</label>
+                <input type="number" name="neuroticism" class="form-control" min="1" max="10" placeholder="Rate neuroticism" required>
             </div>
 
-            <!-- Hobbies and Interests -->
-            <div class="form-section hobbies-interests mb-4 p-3 border rounded">
-                <h4>Hobbies and Interests</h4>
-                <div class="form-group">
-                    <label for="interests">Primary Interest:</label>
-                    <select class="form-control" id="interests" name="interests" required>
-                        <option value="arts">Arts</option>
-                        <option value="business">Business</option>
-                        <option value="healthcare">Healthcare</option>
-                        <option value="technology">Technology</option>
-                    </select>
-                </div>
-
-                <div class="form-group">
-                    <label>Hobbies:</label><br>
-                    {% for hobby in ['coding', 'cooking', 'dance', 'finance', 'gaming', 'history', 'music', 'painting', 'reading', 'research', 'science', 'sports', 'travel', 'writing'] %}
-                        <div class="form-check form-check-inline">
-                            <input type="checkbox" class="form-check-input" name="hobbies[]" value="{{ hobby }}">
-                            <label class="form-check-label">{{ hobby.capitalize() }}</label>
-                        </div><br>
-                    {% endfor %}
-                </div>
-
-                <div class="form-group">
-                    <label for="budget">Budget (in USD):</label>
-                    <input type="number" class="form-control" id="budget" name="budget" required>
-                  </div>
-
-                  <div class="form-group">
-                    <label for="career_demand_score">Career Demand Score (0-100):</label>
-                    <input type="number" class="form-control" id="career_demand_score" name="career_demand_score" required>
-                  </div>
-                  
-                  <div class="form-group">
-                    <label for="extracurricular_activities">Extracurricular Activities:</label>
-                    <select class="form-control" id="extracurricular_activities" name="extracurricular_activities">
-                      <option value="none">None</option>
-                      <option value="sports">Sports</option>
-                      <option value="music">Music</option>
-                      <option value="arts">Arts</option>
-                      <option value="volunteering">Volunteering</option>
-                      <option value="others">Others</option>
-                    </select>
-                  </div>                                 
-                  
-                  <div class="form-group">
-                    <label for="weekly_self_study_hours">Weekly Self Study Hours:</label>
-                    <input type="number" class="form-control" id="weekly_self_study_hours" name="weekly_self_study_hours" required>
-                  </div>
-                  
+            <!-- Interests -->
+            <h3>Interests</h3>
+            <div class="form-group">
+                <label>Select your primary interest:</label>
+                <select name="interests" class="form-control" required>
+                    <option value="">Select an interest</option>
+                    <option>arts</option>
+                    <option>business</option>
+                    <option>healthcare</option>
+                    <option>technology</option>
+                </select>
             </div>
 
-            <button type="submit" class="btn btn-primary btn-block">Submit</button>
+            <!-- Submit Button -->
+            <button type="submit" class="btn btn-primary btn-block mt-3">Submit</button>
         </form>
     </div>
 </body>
